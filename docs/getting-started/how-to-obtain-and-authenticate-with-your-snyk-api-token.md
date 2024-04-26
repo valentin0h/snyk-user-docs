@@ -8,7 +8,7 @@ Free, Team, and Trial plan users have access only to this personal token under t
 * The Snyk CLI running on a local or a build machine
 * An IDE, when setting a token manually
 
-Enterprise users have access to a personal token under their profile and to service account tokens. For details, see [Service accounts](../enterprise-configuration/service-accounts/).
+Enterprise users have access to a personal token under their profile and to service account tokens. For details, see [Service accounts](broken-reference).
 
 * **Enterprise users should use a service account** to authenticate for any kind of automation. This includes, but is not limited to, CI/CD scanning with the CLI or build system plugins and automations, including the API.
 * **Enterprise users should use the personal token** under their user profile for:
@@ -19,7 +19,7 @@ Enterprise users have access to a personal token under their profile and to serv
 For more information on the personal Snyk API token, see the following pages: [Authenticate the CLI with your account](../snyk-cli/authenticate-the-cli-with-your-account.md) and [Authentication for API](../snyk-api-info/authentication-for-api.md).
 
 {% hint style="info" %}
-If you are using Snyk on the EU and AU tenants,  you must set your endpoints accordingly before authenticating. For more information, see [Regional hosting and data residency](../working-with-snyk/regional-hosting-and-data-residency.md).
+If you are using Snyk on the EU and AU tenants, you must set your endpoints accordingly before authenticating. For more information, see [Regional hosting and data residency](../working-with-snyk/regional-hosting-and-data-residency.md).
 {% endhint %}
 
 Follow these steps to obtain your personal Snyk API token:

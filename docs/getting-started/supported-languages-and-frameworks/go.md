@@ -47,11 +47,11 @@ After Snyk has built the dependencies tree, Snyk uses the [vulnerability databas
 
 To scan your dependencies, ensure you have first installed the relevant package manager, and that your Project contains the supported manifest files.
 
-The way Snyk analyzes and builds the dependencies tree varies depending on the language and package manager of the Project, as well as the location of your Project.&#x20;
+The way Snyk analyzes and builds the dependencies tree varies depending on the language and package manager of the Project, as well as the location of your Project.
 
 ## Getting started with Snyk for Go across environments
 
-### Snyk CLI&#x20;
+### Snyk CLI
 
 #### Prerequisites
 
@@ -63,7 +63,7 @@ The way Snyk analyzes and builds the dependencies tree varies depending on the l
 
 #### Code analysis
 
-To start testing your code using Snyk Code open your repository in a terminal and run the following  command:
+To start testing your code using Snyk Code open your repository in a terminal and run the following command:
 
 ```javascript
 snyk code test
@@ -88,7 +88,7 @@ Snyk scans Go Modules Projects in the CLI at the package level rather than the m
 {% endhint %}
 
 {% hint style="info" %}
-Packages from the [Go standard library](https://pkg.go.dev/std) are not supported or included in the dependency tree.&#x20;
+Packages from the [Go standard library](https://pkg.go.dev/std) are not supported or included in the dependency tree.
 
 Packages under `golang.org/x/` which are [part of the Go Project](https://pkg.go.dev/golang.org/x) but outside the main Go tree are supported.
 {% endhint %}
@@ -152,17 +152,17 @@ If you have private modules in repositories from other Git organizations, your P
 
 Private module support in different SCMs varies depending on whether [full source code analysis](go.md#enable-full-source-code-analysis) is enabled or disabled.
 
-| Full source code analysis enabled                                                                                                      | Full source code analysis disabled                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| <ul><li>Gitlab</li><li>GitHub Enterprise</li><li>GitHub</li><li>Bitbucket Server</li><li>Bitbucket Cloud</li><li>Azure Repos</li></ul> | <p></p><ul><li>GitHub</li><li>GitHub Enterprise</li><li>Gitlab</li></ul> |
+| Full source code analysis enabled                                                                                                      | Full source code analysis disabled                                |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| <ul><li>Gitlab</li><li>GitHub Enterprise</li><li>GitHub</li><li>Bitbucket Server</li><li>Bitbucket Cloud</li><li>Azure Repos</li></ul> | <ul><li>GitHub</li><li>GitHub Enterprise</li><li>Gitlab</li></ul> |
 
 #### **Snyk Broker**
 
 {% hint style="warning" %}
-Snyk Broker is currently supported only  when [full source code analysis](go.md#enable-full-source-code-analysis) is disabled
+Snyk Broker is currently supported only when [full source code analysis](go.md#enable-full-source-code-analysis) is disabled
 {% endhint %}
 
-Go Modules Projects imported using new [Snyk Broker](../../enterprise-configuration/snyk-broker/) clients should work as expected.
+Go Modules Projects imported using new [Snyk Broker](broken-reference) clients should work as expected.
 
 To add support to clients created before December 30, 2020, add `go.mod` and `go.sum` to your `accept.json` file, as per the changes in this [pull request](https://github.com/snyk/broker/pull/299/files).
 
@@ -174,10 +174,10 @@ To build the dependency tree, Snyk analyzes the `Gopkg.lock` files in your Git r
 
 #### What's next?
 
-* [Open a Fix PR](go.md#open-a-fix-pr)&#x20;
+* [Open a Fix PR](go.md#open-a-fix-pr)
 * [Configure PR Checks](../../scan-with-snyk/pull-requests/pull-request-checks/configure-pr-checks.md)
 
-### Snyk integrations&#x20;
+### Snyk integrations
 
 :link: For integrated development environments, see [Use Snyk in your IDE](../../integrate-with-snyk/use-snyk-in-your-ide/).
 
@@ -185,5 +185,4 @@ To build the dependency tree, Snyk analyzes the `Gopkg.lock` files in your Git r
 
 ## Troubleshooting
 
-If you need help, [contact Snyk Support](https://support.snyk.io/hc/en-us).&#x20;
-
+If you need help, [contact Snyk Support](https://support.snyk.io/hc/en-us).

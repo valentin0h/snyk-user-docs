@@ -19,7 +19,7 @@ This page covers the following topics:
 **Feature availability**
 
 Some functions, such as Groups, are available only on some [pricing plans](https://snyk.io/plans/).\
-See [Enterprise setup](../enterprise-configuration/) for information about set up for Enterprise plan customers.
+See [Enterprise setup](broken-reference) for information about set up for Enterprise plan customers.
 {% endhint %}
 
 ## Accounts, Groups, Organizations, Targets, and Projects
@@ -60,7 +60,7 @@ Snyk provides tools to manage Groups, Organizations, and user roles and permissi
 
 ### Manage users and permissions
 
-You can manage users and permissions in your Groups. For details, see [Manage users and permissions](broken-reference).
+You can manage users and permissions in your Groups. For details, see [Manage users and permissions](broken-reference/).
 
 <figure><img src="../.gitbook/assets/image (245) (1) (1) (1).png" alt="Manage members interface"><figcaption><p>Manage members interface</p></figcaption></figure>
 

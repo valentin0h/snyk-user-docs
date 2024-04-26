@@ -18,7 +18,7 @@ The parent image used to construct a container image, usually defined in the `FR
 
 ### Broker
 
-See [Snyk Broker](../enterprise-configuration/snyk-broker/).
+See [Snyk Broker](broken-reference).
 
 ### Build System
 
@@ -59,7 +59,7 @@ One or more files that, when instantiated by a container engine or runtime, prov
 
 A server that provides a mechanism to store and retrieve container images.
 
-### **Controls (Snyk AppRisk)**&#x20;
+### **Controls (Snyk AppRisk)**
 
 The security controls associated with the asset. Navigate to the Snyk AppRisk Controls section to see all available statuses for security controls.
 
@@ -226,7 +226,7 @@ See [license policy](glossary.md#license-policy), [security policy](glossary.md#
 
 ### **Policy (Snyk AppRisk)**
 
-&#x20;A way to automate actions in certain conditions, like classifying and tagging assets with business context. You can also use a policy to configure actions like sending a message or setting the coverage gap control using a Policy builder UI.
+A way to automate actions in certain conditions, like classifying and tagging assets with business context. You can also use a policy to configure actions like sending a message or setting the coverage gap control using a Policy builder UI.
 
 ### PR
 
@@ -330,7 +330,7 @@ Snyk Apps are the modern and preferred way to build integrations with Snyk, expo
 
 ### Snyk Broker
 
-A client/server system that serves as an agent or proxy, allowing Snyk to scan private customer environments: Jira, code repositories, or container registries. Snyk Broker relays messages and allows users to filter which messages are allowed through,  for example, allowing users to expose only some GitHub APIs to Snyk. See [Snyk Broker](../enterprise-configuration/snyk-broker/).
+A client/server system that serves as an agent or proxy, allowing Snyk to scan private customer environments: Jira, code repositories, or container registries. Snyk Broker relays messages and allows users to filter which messages are allowed through, for example, allowing users to expose only some GitHub APIs to Snyk. See [Snyk Broker](broken-reference).
 
 ### Snyk CLI
 
@@ -367,7 +367,7 @@ The browser-based environment that provides users access to Snyk functions. See 
 
 ### Social Trends
 
-Snyk shows a Trending banner on issues that are being actively discussed on Twitter. See  [Vulnerabilities with Social Trends](../manage-risk/prioritize-your-issues/vulnerabilities-with-social-trends.md).
+Snyk shows a Trending banner on issues that are being actively discussed on Twitter. See [Vulnerabilities with Social Trends](../manage-risk/prioritize-your-issues/vulnerabilities-with-social-trends.md).
 
 ### Source
 

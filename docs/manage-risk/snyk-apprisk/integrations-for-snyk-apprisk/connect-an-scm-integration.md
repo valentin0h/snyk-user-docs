@@ -9,7 +9,7 @@ You can customize your AppRisk integrations from the **Integrations Hub** where 
 * [Azure DevOps](connect-an-scm-integration.md#azure-devops-setup-guide)
 * [BitBucket](connect-an-scm-integration.md#bitbucket-setup-guide)
 
-If your SCM instance is not publicly accessible, you must connect using Snyk Broker. For details, see [Snyk Broker - AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md).
+If your SCM instance is not publicly accessible, you must connect using Snyk Broker. For details, see [Snyk Broker - AppRisk](broken-reference).
 
 ## GitHub setup guide
 
@@ -21,12 +21,12 @@ If your SCM instance is not publicly accessible, you must connect using Snyk Bro
 
 ### Integrate using Snyk AppRisk
 
-1. Profile name (`mandatory`): Input your integration profile name.&#x20;
+1. Profile name (`mandatory`): Input your integration profile name.
 2. Organizations (`mandatory`): Input the names of all the relevant GitHub organizations.
 3. Access Token (`mandatory`): Create your GitHub PAT from your GitHub organization. Follow the instructions in the [Generate a Personal access token from your GitHub settings](connect-an-scm-integration.md#generate-a-personal-access-token-from-your-github-settings) section. Authorize your personal access token if you have configured SAML SSO.
 
 {% hint style="info" %}
-If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md) page.
+If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](broken-reference) page.
 {% endhint %}
 
 4. API URL (`mandatory`) - Input the API URL. The default URL is `https://api.github.com`.
@@ -40,7 +40,7 @@ If you want to use the Broker Token follow the instructions from the [Snyk Broke
 3. Select Personal access tokens and then Tokens (classic).
 4. Click Generate new token and, from the dropdown, select Generate new token (classic).
 5. Add a description for your token in the Note field.
-6. Select the required permissions:&#x20;
+6. Select the required permissions:
    * `repo`
    * `read:packages`
    * `read:org`
@@ -66,15 +66,15 @@ The user associated with the token needs to have write permissions on relevant r
 ### Pulled entities
 
 * Users
-* Repositories&#x20;
+* Repositories
 
 ### Integrate using Snyk AppRisk
 
-1. Profile name (`mandatory`): Input your integration profile name.&#x20;
+1. Profile name (`mandatory`): Input your integration profile name.
 2. API Token (`mandatory`): Create your GitLab PAT from your GitLab organization. Follow the instructions in [Generate a Personal access token from your GitLab settings section](connect-an-scm-integration.md#generate-a-personal-access-token-from-your-gitlab-settings). Authorize your personal access token if you have configured SAML SSO.
 
 {% hint style="info" %}
-If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md) page.
+If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](broken-reference) page.
 {% endhint %}
 
 3. Host URL (`mandatory`): The IP/URL of the GitLab server. The default URL is [`https://gitlab.com`](https://gitlab.com)
@@ -107,12 +107,12 @@ You can use the[ GitLab REST API v4](https://docs.gitlab.com/ee/api/index.html) 
 
 ### Integrate using Snyk AppRisk
 
-1. Profile name (`mandatory`): Input your integration profile name.&#x20;
+1. Profile name (`mandatory`): Input your integration profile name.
 2. Organizations (`mandatory`): Input the names of all the relevant Azure DevOps organizations.
-3. Access Token (`mandatory`): Create your Azure DevOps PAT from your Azure DevOps settings. Follow the instructions from the  [Generate a Personal access token from your Azure DevOps settings](connect-an-scm-integration.md#generate-a-personal-access-token-from-your-azure-devops-settings) section.
+3. Access Token (`mandatory`): Create your Azure DevOps PAT from your Azure DevOps settings. Follow the instructions from the [Generate a Personal access token from your Azure DevOps settings](connect-an-scm-integration.md#generate-a-personal-access-token-from-your-azure-devops-settings) section.
 
 {% hint style="info" %}
-If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md) page.
+If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](broken-reference) page.
 {% endhint %}
 
 4. API URL (`mandatory`): The API URL, for example, [`https://dev.azure.com/`](https://dev.azure.com/). You can use a custom URL that is publicly accessible.
@@ -142,8 +142,8 @@ You can use the[ Azure DevOps REST API v6](https://learn.microsoft.com/en-us/res
 ## BitBucket setup guide
 
 {% hint style="info" %}
-BitBucket Server and BitBucket Cloud do not support automatic language detection. \
-If you use BitBucket Cloud you can manually add the language tags to a repository.&#x20;
+BitBucket Server and BitBucket Cloud do not support automatic language detection.\
+If you use BitBucket Cloud you can manually add the language tags to a repository.
 
 Note that for BitBucket Server you are unable to manually add language tags to a repository.
 {% endhint %}
@@ -155,11 +155,11 @@ Note that for BitBucket Server you are unable to manually add language tags to a
 
 ### Integrate using Snyk AppRisk
 
-1. Profile name (`mandatory`): Input your integration profile name.&#x20;
+1. Profile name (`mandatory`): Input your integration profile name.
 2. Access Token (`mandatory`): Create your BitBucket PAT from your BitBucket organization.
 
 {% hint style="info" %}
-If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md) page.
+If you want to use the Broker Token follow the instructions from the [Snyk Broker AppRisk](broken-reference) page.
 {% endhint %}
 
 3. API URL (`mandatory`) - Input the API URL.
@@ -174,9 +174,9 @@ If you want to use the Broker Token follow the instructions from the [Snyk Broke
 {% hint style="info" %}
 Create a BitBucket app password by following these steps:
 
-1. Open your BitBucket account&#x20;
+1. Open your BitBucket account
 2. Click the Settings option
-3. Click the Personal BitBucket settings option&#x20;
+3. Click the Personal BitBucket settings option
 4. Navigate to the App passwords sub-section from the ACCESS MANAGEMENT section.
 {% endhint %}
 
@@ -186,7 +186,6 @@ Create a BitBucket app password by following these steps:
 ### API version
 
 You can use the [BitBucket REST API V2](https://developer.atlassian.com/bitbucket/api/2/reference/resource/) repository to access information about the API.\
-\
+\\
 
-
-\
+\\

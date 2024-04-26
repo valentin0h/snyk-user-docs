@@ -1,7 +1,7 @@
 # User role management
 
 {% hint style="info" %}
-**Feature availability**&#x20;
+**Feature availability**
 
 Managing user roles is available only for Enterprise plans.
 
@@ -49,7 +49,7 @@ Role management for Groups takes place in **Settings** > **Member roles**. This 
 
 Click the **Create new role** button and enter the **New role name**, **Role Type**, and **Description**. Role names should be unique, reflecting the user purpose in Snyk, and can contain alphanumeric characters plus spaces. The **Role Type** reflects the permission sets the user can have, Organization-level only, or Group and Organization-level.
 
-<figure><img src="../../.gitbook/assets/2024-02-13_10-17-49.png" alt="Create a custom Organization-level role" width="375"><figcaption><p>Create  a custom Organization-level role</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-02-13_10-17-49.png" alt="Create a custom Organization-level role" width="375"><figcaption><p>Create a custom Organization-level role</p></figcaption></figure>
 
 If you would like to continue, you can click the **Create role** button. Basic details about the role are visible in the top section of the **Role details** screen.
 
@@ -95,7 +95,7 @@ To copy a role, use the **Duplicate** button next to each role in the Member Rol
 
 <figure><img src="../../.gitbook/assets/2024-02-13_10-44-43.png" alt="Duplicate a role using the copy icon on the Member Roles page"><figcaption><p>Duplicate a role using the copy icon on the Member Roles page</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/2024-02-13_10-46-59.png" alt="Duplicate a role using the Duplicate role button  under Role Details"><figcaption><p>Duplicate a role using the Duplicate role button  under Role Details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-02-13_10-46-59.png" alt="Duplicate a role using the Duplicate role button  under Role Details"><figcaption><p>Duplicate a role using the Duplicate role button under Role Details</p></figcaption></figure>
 
 A Duplicate role pop-up will appear, prompting you to enter a unique name and description. You can select the option to use the description from the role you copied from, but this can be edited later. Click the **Duplicate Role** button to proceed with creation. A **Group Admin** or a custom role with **Role management** permissions can edit this role to assign new permissions to it or remove any permissions already assigned.
 
@@ -153,7 +153,7 @@ Service accounts are available only to Snyk Enterprise customers. Free and Team 
 For more information, see [Plans and pricing](https://snyk.io/plans).
 {% endhint %}
 
-Users with the Group-level View, Create, and Edit service account permissions can change the assigned role and related permissions of a service account. For detailed steps, see [Assign roles and permissions to a service account](../../enterprise-configuration/service-accounts/#assign-roles-and-permissions-to-a-service-account).
+Users with the Group-level View, Create, and Edit service account permissions can change the assigned role and related permissions of a service account. For detailed steps, see [Assign roles and permissions to a service account](broken-reference).
 
 ## Change the role of a user
 

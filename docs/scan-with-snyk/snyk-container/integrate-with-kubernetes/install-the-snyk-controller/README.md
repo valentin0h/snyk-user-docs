@@ -3,7 +3,7 @@
 ## Prerequisites for installing the Snyk Controller
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
 Snyk Controller is available only for Enterprise plans.
 
@@ -23,7 +23,7 @@ limits: cpu: "1" memory: "2Gi"
 
 * Your Kubernetes cluster must be able to communicate with Snyk outbound over HTTPS.
 * [Enable the Kubernetes Integration ](../overview-of-the-kubernetes-integration/enable-the-kubernetes-integration.md)to get your **Integration ID.**
-* Create a **Group** or **Organization** **service account token**. For more information, see [Service account](../../../../enterprise-configuration/service-accounts/)s. There are different roles that allow the integration to publish data:
+* Create a **Group** or **Organization** **service account token**. For more information, see [Service account](broken-reference)s. There are different roles that allow the integration to publish data:
   * Group Admin
   * Org Admin
   * Org custom role with the permission **Publish Kubernetes Resources**

@@ -1,7 +1,7 @@
 # Integrate with self-hosted container registries (Broker)
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
 Self-hosted container registries (Broker) are available only for Enterprise plans.
 
@@ -25,7 +25,7 @@ The Broker Client provides the Agent with the connection details. The Agent uses
 
 The brokered communication happens when a Broker Client connects (using your Broker ID) to a Broker server that runs within the Snyk environment.
 
-For more details, see [Snyk Broker - Container Registry Agent](../../enterprise-configuration/snyk-broker/snyk-broker-container-registry-agent/).
+For more details, see [Snyk Broker - Container Registry Agent](broken-reference).
 
 ## **Supported container registries**
 

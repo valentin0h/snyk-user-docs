@@ -3,7 +3,7 @@
 ## Create an API request with a Custom template
 
 {% hint style="info" %}
-Ensure that your account manager has turned on the feature flag and you have enabled the feature in the Snyk Preview settings.&#x20;
+Ensure that your account manager has turned on the feature flag and you have enabled the feature in the Snyk Preview settings.
 {% endhint %}
 
 You can create a custom PR template by sending an [API request](https://apidocs.snyk.io/?version=2023-10-13%7Ebeta#tag--Pull-Request-Templates) containing a JSON payload with the customized properties. This request configures a Group level pull request template that will be used on any Organization or Project within that Group. The Snyk API pull request template can be updated at any time and all Projects in that Group are automatically updated with the latest changes.
@@ -22,10 +22,10 @@ The following properties are customizable:
 
 * `title` - customize the PR title
 * `commit_message` - customize the PR commit message
-* `description` - customize the PR description&#x20;
+* `description` - customize the PR description
 
 {% hint style="info" %}
-If any customizable properties are missing from your template, Snyk reverts to the default values for these properties when opening a pull request.&#x20;
+If any customizable properties are missing from your template, Snyk reverts to the default values for these properties when opening a pull request.
 {% endhint %}
 
 ## Customize and use a YAML PR template
@@ -40,7 +40,7 @@ When the Customize Snyk PRs feature is enabled, all PRs from Snyk adopt this for
 
 #### YAML multiline operators
 
-You can use YAML multiline operators. You can create a detailed description that spans several lines by following this format:&#x20;
+You can use YAML multiline operators. You can create a detailed description that spans several lines by following this format:
 
 ```yaml
 description: |
@@ -62,24 +62,24 @@ The following properties are customizable:
 
 * `title` - customize the PR title
 * `commitMessage` - customize the PR commit message
-* `description` - customize the PR description&#x20;
+* `description` - customize the PR description
 
 {% hint style="info" %}
-If any customizable properties are missing from your template, Snyk reverts to the default values for these properties when opening a pull request.&#x20;
+If any customizable properties are missing from your template, Snyk reverts to the default values for these properties when opening a pull request.
 {% endhint %}
 
 ### Use the YAML Custom PR template
 
 {% hint style="info" %}
-Ensure that your account manager has turned on the feature flag and you have enabled the feature in the Snyk Preview settings.&#x20;
+Ensure that your account manager has turned on the feature flag and you have enabled the feature in the Snyk Preview settings.
 {% endhint %}
 
-You can manually upload the YAML file with the name  `snyk_pull_request_template.yaml` to your Project(repository)[^1]. The method varies based on the type of integration.
+You can manually upload the YAML file with the name `snyk_pull_request_template.yaml` to your Project(repository). The method varies based on the type of integration.
 
 * Github/ GitHub Enterprise - `/.github/snyk_pull_request_template.yaml`
-* GitLab  - `/.gitlab/snyk_pull_request_template.yaml`
-* Azure  - `/.azuredevops/snyk_pull_request_template.yaml`
-* Other (like BitBucket)  - `/.config/snyk_pull_request_template.yaml`
+* GitLab - `/.gitlab/snyk_pull_request_template.yaml`
+* Azure - `/.azuredevops/snyk_pull_request_template.yaml`
+* Other (like BitBucket) - `/.config/snyk_pull_request_template.yaml`
 
 {% hint style="info" %}
 If you want to use multiple repositories for a custom template, add the customized YAML template file to each of these repositories.
@@ -87,11 +87,11 @@ If you want to use multiple repositories for a custom template, add the customiz
 
 ## Broker configurations for fetching PR templates
 
-If you use  [Snyk Broker](../../../../enterprise-configuration/snyk-broker/), you must allow access to these file locations in the `accept.json` [configuration of your Broker client](../../../../enterprise-configuration/snyk-broker/snyk-broker-code-agent/install-snyk-broker-code-agent-using-docker/set-up-the-broker-client/run-the-broker-client-with-the-code-snippets-display.md). The following describes the additional rules that should be added for each git integration.
+If you use [Snyk Broker](broken-reference), you must allow access to these file locations in the `accept.json` [configuration of your Broker client](broken-reference). The following describes the additional rules that should be added for each git integration.
 
 ### Github and GitHub Enterprise
 
-Under the list of `private` rules add the following input. For more information, see [Configure Broker to be used for GitHub Enterprise](../../../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/github-enterprise-prerequisites-and-steps-to-install-and-configure-broker/setup-broker-with-github-enterprise.md#configure-broker-to-be-used-for-github-enterprise) in the instructions for installing Broker for GitHub Enterprise.
+Under the list of `private` rules add the following input. For more information, see [Configure Broker to be used for GitHub Enterprise](broken-reference) in the instructions for installing Broker for GitHub Enterprise.
 
 ```json
 {
@@ -110,7 +110,7 @@ Under the list of `private` rules add the following input. For more information,
 
 ### Azure repos
 
-Under the list of `private` rules, add the following two elements to the existing `valid.values` array for file content. For more information, see [Configure Broker to be used with Azure Repos](../../../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/azure-repos-prerequisites-and-steps-to-install-and-configure-broker/setup-broker-with-azure-repos.md#configure-broker-to-be-used-with-azure-repos) in the instructions for installing Broker for Azure repos.
+Under the list of `private` rules, add the following two elements to the existing `valid.values` array for file content. For more information, see [Configure Broker to be used with Azure Repos](broken-reference) in the instructions for installing Broker for Azure repos.
 
 ```json
 {
@@ -129,7 +129,7 @@ Under the list of `private` rules, add the following two elements to the existin
 
 ### BitBucket Server
 
-Under the list of `private` rules, add the following input. For more information, see [Bitbucket Server/Data Center - environment variables for Snyk Broker](../../../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/bitbucket-server-data-center-prerequisites-and-steps-to-install-and-configure-broker/bitbucket-server-data-center-environment-variables-for-snyk-broker.md) in the instructions for installing Broker for BitBucket Server.
+Under the list of `private` rules, add the following input. For more information, see [Bitbucket Server/Data Center - environment variables for Snyk Broker](broken-reference) in the instructions for installing Broker for BitBucket Server.
 
 ```json
 {
@@ -158,7 +158,7 @@ Under the list of `private` rules, add the following input. For more information
 
 ### GitLab
 
-Under the list of `private` rules, add the following input. For more information, see [GitLab - environment variables for Snyk Broker](../../../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/gitlab-prerequisites-and-steps-to-install-and-configure-broker/gitlab-environment-variables-for-snyk-broker.md) in the instructions for installing Broker for GitLab.
+Under the list of `private` rules, add the following input. For more information, see [GitLab - environment variables for Snyk Broker](broken-reference) in the instructions for installing Broker for GitLab.
 
 ```json
 {
@@ -191,5 +191,3 @@ If you use GitLab v3, add the following two elements to the existing `valid.valu
         "**%2F.config%2Fsnyk_pull_request_template.yaml",
 }
 ```
-
-[^1]: 

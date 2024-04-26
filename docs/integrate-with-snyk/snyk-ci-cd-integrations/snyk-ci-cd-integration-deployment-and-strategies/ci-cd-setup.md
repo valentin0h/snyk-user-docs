@@ -13,7 +13,7 @@ When you run Snyk in your CI/CD platform, you typically want to post the test re
 * For user accounts, this is the user's preferred Organization, configurable in the user's settings.
 * For Organization service accounts, this is the Organization in which the account was created.
 
-You can **define the target organization** in the Snyk CLI by using the  `--org` CLI option and either the `orgslugnam`e or Organization ID:
+You can **define the target organization** in the Snyk CLI by using the `--org` CLI option and either the `orgslugnam`e or Organization ID:
 
 * You can define the target Organization using its `orgslugname` as displayed in the address bar of the browser in the Snyk UI.
 * Alternatively, you can define the target Organization using its ORG\_ID on the Organization settings page.
@@ -28,7 +28,7 @@ To run `snyk test`, you must authenticate using a token with access to the targe
 
 Snyk Free and Team plan users must use their **personal Snyk API token**. See [API token configuration](ci-cd-setup.md#api-token-configuration) on this page for information on how to do this.
 
-Enterprise users should use a **service account** for any type of automation, including CI/CD setup. For more information, see [Service accounts](../../../enterprise-configuration/service-accounts/).
+Enterprise users should use a **service account** for any type of automation, including CI/CD setup. For more information, see [Service accounts](broken-reference).
 
 ## Setting up Snyk to run in a pipeline
 

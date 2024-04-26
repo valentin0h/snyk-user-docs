@@ -1,7 +1,7 @@
 # Jira integration
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
 Jira integration is available with all paid plans. See [Pricing plans](https://snyk.io/plans).
 
@@ -13,7 +13,7 @@ For Snyk Infrastructure as Code, see [Jira Integration for IaC](../../scan-with-
 Snyk Jira integration allows you to manually raise Jira issues in the Snyk UI for vulnerabilities or license issues. The Jira integration also includes APIs ([see Snyk API docs](https://snyk.docs.apiary.io/#reference/projects/project-jira-issues)).
 
 {% hint style="info" %}
-If your Jira instance is private, use [the Snyk Broker deployment method](../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/jira-prerequisites-and-steps-to-install-and-configure-broker/setup-broker-with-jira.md).
+If your Jira instance is private, use [the Snyk Broker deployment method](broken-reference).
 {% endhint %}
 
 ## **Prerequisites for Jira integration with Snyk**
@@ -31,15 +31,15 @@ Enter the Jira account credentials in the Snyk Web UI: **Organization Settings >
 
 <figure><img src="../../.gitbook/assets/JiraSettings_nonBroker.png" alt="Jira settings"><figcaption><p>Jira settings</p></figcaption></figure>
 
-After the details have been entered into the integration, press **Save and continue**.&#x20;
+After the details have been entered into the integration, press **Save and continue**.
 
 {% hint style="info" %}
 If the connection is not successful, check that the Base URL starts with exactly `https://` It must not have capitals or be http.
 {% endhint %}
 
-If the connection is successful, you will see the connection details in orange at the top of the page, with options for configuring the default Project and issue type, as well as any fields to ignore.&#x20;
+If the connection is successful, you will see the connection details in orange at the top of the page, with options for configuring the default Project and issue type, as well as any fields to ignore.
 
-The default Project and issue type must be configured.&#x20;
+The default Project and issue type must be configured.
 
 <figure><img src="../../.gitbook/assets/JiraSettings.png" alt=""><figcaption><p>A successful connection</p></figcaption></figure>
 
@@ -61,7 +61,7 @@ After you create a Jira issue, the Jira key with a link is displayed on the issu
 
 ## Integrate with Jira using Snyk Broker
 
-See [Set up Snyk Broker with Jira](../../enterprise-configuration/snyk-broker/install-and-configure-snyk-broker/jira-prerequisites-and-steps-to-install-and-configure-broker/setup-broker-with-jira.md).
+See [Set up Snyk Broker with Jira](broken-reference).
 
 ## See also
 

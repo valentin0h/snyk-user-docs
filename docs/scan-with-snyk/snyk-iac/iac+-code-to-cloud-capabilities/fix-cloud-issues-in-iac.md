@@ -26,7 +26,7 @@ Snyk generates [resource mappings](../getting-started-with-iac+-and-cloud-scans/
 
 You must have the following:
 
-* Access to a Snyk [service account](../../../enterprise-configuration/service-accounts/) and API token
+* Access to a Snyk [service account](broken-reference) and API token
 * Access to a Snyk Organization with IaC+
 * Cloud resources deployed to AWS, Azure, and/or Google Cloud with Terraform via CI/CD
 * Terraform version 0.11 or later
@@ -105,8 +105,8 @@ jobs:
 
 Set the following [environment variables](https://circleci.com/docs/env-vars/) in CircleCI:
 
-* `AWS_ACCESS_KEY_ID` -  used for `terraform apply` and `terraform state pull`
-* `AWS_SECRET_ACCESS_KEY` -  used for `terraform apply` and `terraform state pull`
+* `AWS_ACCESS_KEY_ID` - used for `terraform apply` and `terraform state pull`
+* `AWS_SECRET_ACCESS_KEY` - used for `terraform apply` and `terraform state pull`
 * `SNYK_TOKEN` - the Snyk service account's API token
 * `SNYK_ORG_ID` - the Snyk Organization ID
 

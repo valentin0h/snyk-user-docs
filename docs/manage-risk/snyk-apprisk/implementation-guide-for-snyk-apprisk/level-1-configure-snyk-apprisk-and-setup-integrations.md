@@ -15,7 +15,7 @@ You can access Snyk AppRisk from the [Snyk Web UI.](../../../getting-started/sny
 After you ensure you can correctly access Snyk AppRisk, you can start to build your asset inventory by setting up the integrations.
 
 {% hint style="info" %}
-Snyk scan information is automatically imported within two hours after enabling Snyk AppRisk.&#x20;
+Snyk scan information is automatically imported within two hours after enabling Snyk AppRisk.
 {% endhint %}
 
 You can access and configure the integrations from the Integrations view. Select the Integration Hub option to see the list of all available integrations. You can find more details about integration configuration in the [Using the Integration Hub](../integrations-for-snyk-apprisk/#using-the-integration-hub) section.
@@ -26,7 +26,7 @@ The integrations view can be configured to apply to your needs, meaning that you
 
 <figure><img src="../../../.gitbook/assets/image (357).png" alt="Snyk AppRisk - Integration Hub option displaying the list of available integrations"><figcaption><p>Snyk AppRisk - Integration Hub option displaying the list of available integrations</p></figcaption></figure>
 
-After you click on the Integration Hub, a list of the available integrations is displayed. You can add one or multiple profiles, for each integration.&#x20;
+After you click on the Integration Hub, a list of the available integrations is displayed. You can add one or multiple profiles, for each integration.
 
 ### SCM integrations
 
@@ -53,20 +53,19 @@ When setting up a Snyk Broker, there are some questions you need to ask regardin
 * Do you need to update the SCM token to a user that has access to all relevant SCM repositories?
 * Do you have more than 1000 repos?
 
-If you answered Yes to any of the above questions, then you need to deploy a new Snyk Broker to accommodate the Snyk AppRisk SCM connection.&#x20;
+If you answered Yes to any of the above questions, then you need to deploy a new Snyk Broker to accommodate the Snyk AppRisk SCM connection.
 
 {% hint style="info" %}
 Snyk recommends creating a new Organization in Snyk specifically for the Snyk AppRisk Broker.
 {% endhint %}
 
-Navigate to the [Snyk Broker - AppRisk](../../../enterprise-configuration/snyk-broker/snyk-broker-apprisk.md) page for more details about installing and configuring Snyk AppRisk using Snyk Broker.\
-
+Navigate to the [Snyk Broker - AppRisk](broken-reference) page for more details about installing and configuring Snyk AppRisk using Snyk Broker.\\
 
 ### Third-party integrations
 
-To set up your third-party integrations, you can utilize the Snyk AppRisk Integrations Hub. It's important to mention that this is a distinct integration interface solely dedicated to Snyk AppRisk, separate from the Organization integrations interface. \
+To set up your third-party integrations, you can utilize the Snyk AppRisk Integrations Hub. It's important to mention that this is a distinct integration interface solely dedicated to Snyk AppRisk, separate from the Organization integrations interface.\
 \
-In each Snyk Organization, administrators can give out tokens that provide restricted access to the applications utilized by developers. \
+In each Snyk Organization, administrators can give out tokens that provide restricted access to the applications utilized by developers.\
 \
 With regards to Snyk AppRisk, the purpose of a token is to provide an overview of the current assets as compared to what is imported into Snyk.
 
@@ -89,7 +88,7 @@ Access the [Backstage file for SCM Integrations](../integrations-for-snyk-appris
 
 ## Features
 
-The Snyk AppRisk functionality is split across several menu options from the Group level.&#x20;
+The Snyk AppRisk functionality is split across several menu options from the Group level.
 
 * [Dashboard](../dashboard-for-snyk-apprisk.md)
 * [Inventory](../inventory-for-snyk-apprisk/)
@@ -109,10 +108,10 @@ If you are using Snyk AppRisk for the first time, Snyk recommends you to first u
 
 You can use the Coverage Gap filter to:
 
-*   &#x20;Find any asset that does not comply with the Set coverage control policy requirements:&#x20;
+*   Find any asset that does not comply with the Set coverage control policy requirements:
 
     <figure><img src="../../../.gitbook/assets/image (1) (10).png" alt="Use the Coverage gap filter to Find any asset that is out of policy"><figcaption><p>Coverage gap - Use case 1</p></figcaption></figure>
-*   Find any assets that do not meet the coverage requirements for Snyk Open Source or Snyk Code, or both of them simultaneously:&#x20;
+*   Find any assets that do not meet the coverage requirements for Snyk Open Source or Snyk Code, or both of them simultaneously:
 
     <figure><img src="../../../.gitbook/assets/image (1) (10) (1).png" alt="Use the Coverage gap filter to Find any asset that is out of policy for Snyk Open Source OR Snyk Code"><figcaption><p>Coverage gap - Use case 2</p></figcaption></figure>
 
@@ -126,7 +125,7 @@ You can use tags to categorize the assets. You can use tags in multiple ways:
 BitBucket cannot automatically detect the language used in the source code from the repositories. In Snyk AppRisk you can see only the language tags that have been manually added for BitBucket. For more information, see the official documentation provided by BitBucket.
 {% endhint %}
 
-* User-defined tags: you can set up custom tags through policies to categorize your assets beyond the system-generated tags. See the [Create policies ](../policies-for-snyk-apprisk/create-policies.md)page for more details.&#x20;
+* User-defined tags: you can set up custom tags through policies to categorize your assets beyond the system-generated tags. See the [Create policies ](../policies-for-snyk-apprisk/create-policies.md)page for more details.
 
 #### Dashboard
 
@@ -134,13 +133,13 @@ You can use the dashboard for a quick overview of your application and security 
 
 Here are the available dashboard widgets:
 
-* **SAST coverage**: check which repositories are being covered or not by Snyk Code and Snyk Infrastructure as Code.&#x20;
+* **SAST coverage**: check which repositories are being covered or not by Snyk Code and Snyk Infrastructure as Code.
 
 {% hint style="info" %}
 The SAST coverage widget uses an OR statement, meaning that a repository is covered for SAST if it is also covered for Snyk Code OR Snyk Infrastructure as Code.
 {% endhint %}
 
-* **SCA coverage**: check which repositories are being covered or not Snyk Open Source and Snyk Container. You are able to edit the widget if you want to see either Snyk Open Source coverage or Snyk Container coverage.&#x20;
+* **SCA coverage**: check which repositories are being covered or not Snyk Open Source and Snyk Container. You are able to edit the widget if you want to see either Snyk Open Source coverage or Snyk Container coverage.
 
 {% hint style="info" %}
 The SCA coverage widget uses an OR statement, meaning that a repository is covered for SCA if it is also covered for Snyk Open Source OR Snyk Container.
@@ -150,6 +149,3 @@ The SCA coverage widget uses an OR statement, meaning that a repository is cover
 * **Technology breakdown**: check the top technology (language) tags of the repositories that Snyk discovered.
 * **Asset breakdown by type**: check if the asset is a repository or a package.
 * **Repository activity**: check if the repository is active, inactive, or dormant.
-
-
-
