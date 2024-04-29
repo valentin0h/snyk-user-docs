@@ -2,7 +2,7 @@
 
 You can use Snyk to scan and secure your codebase and cloud infrastructure configurations, taking advantage of the Snyk capabilities in Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Infrastructure as Code analysis.
 
-For more information, see [Scanning overview](broken-reference) and [Start scanning](start-scanning-using-the-cli-web-ui-or-api.md).
+For more information, see [Scanning overview](./#run-pull-request-checks) and [Start scanning](start-scanning-using-the-cli-web-ui-or-api.md).
 
 ## Select scanning methods
 
