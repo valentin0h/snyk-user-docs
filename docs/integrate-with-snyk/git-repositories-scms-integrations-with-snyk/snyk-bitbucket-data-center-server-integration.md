@@ -43,7 +43,7 @@ After the integration is in place, you can use capabilities such as:
 
 ### **Project-level security reports**
 
-Snyk produces advanced [security reports](../../manage-issues/reporting/legacy-reports/legacy-reports-overview.md) that let you explore the vulnerabilities found in your repositories and fix them immediately by opening a fix pull request directly to your repository with the required upgrades or patches.
+Snyk produces advanced [security reports](broken-reference) that let you explore the vulnerabilities found in your repositories and fix them immediately by opening a fix pull request directly to your repository with the required upgrades or patches.
 
 The example that follows shows a Project-level security report.
 
@@ -64,7 +64,7 @@ To review and adjust the automatic fix pull request settings:
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-02 at 11.19.09.png" alt="Automatic fix PR settings"><figcaption><p>Automatic fix PR settings </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-02 at 11.19.09.png" alt="Automatic fix PR settings"><figcaption><p>Automatic fix PR settings</p></figcaption></figure>
 
 </div>
 

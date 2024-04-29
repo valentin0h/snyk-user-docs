@@ -31,7 +31,7 @@ Use the Dashboard to see your top pending tasks and vulnerable Projects, and add
 
 ### Top pending tasks
 
-The **Pending tasks** section shows the next chores to be handled for the Projects in a Snyk Organization.&#x20;
+The **Pending tasks** section shows the next chores to be handled for the Projects in a Snyk Organization.
 
 <figure><img src="../.gitbook/assets/Pending-tasks.png" alt="Pending tasks on the dashboard"><figcaption><p>Pending tasks on the dashboard</p></figcaption></figure>
 
@@ -56,7 +56,7 @@ Currently, Snyk tracks and flags PRs in GitHub, GitHub Enterprise, and Bitbucket
 
 ### Top vulnerable projects
 
-Similarly, the **Top vulnerable projects** section shows the [Snyk Projects](../snyk-admin/snyk-projects/) assessed as the most vulnerable, with similar functions available as the **Pending tasks** section.&#x20;
+Similarly, the **Top vulnerable projects** section shows the [Snyk Projects](../snyk-admin/snyk-projects/) assessed as the most vulnerable, with similar functions available as the **Pending tasks** section.
 
 ### Add project
 
@@ -66,7 +66,7 @@ Use the **Add project** link on the Dashboard to add [Snyk Projects](../snyk-adm
 
 ## **View reports**
 
-You can view [reports](../manage-issues/reporting/) to gain visibility and insights into the state of all your Projects, vulnerabilities, and license issues. You will find detailed definitions for information in the reports in the tooltips in the Reporting user interface.
+You can view [reports](broken-reference) to gain visibility and insights into the state of all your Projects, vulnerabilities, and license issues. You will find detailed definitions for information in the reports in the tooltips in the Reporting user interface.
 
 {% hint style="info" %}
 **Feature availability**\

@@ -6,10 +6,10 @@ Scans may be limited on your account, depending on your[ Pricing Plan](../../imp
 
 Snyk takes a developer-first approach to secure your development work by integrating directly into your IDEs, workflows, and automation pipelines to add security expertise to your toolkit. This approach allows you to:
 
-* Use Snyk to focus on early enablement, not later enforcement.&#x20;
+* Use Snyk to focus on early enablement, not later enforcement.
 * Run scans while working on a Project, before you commit any code. This minimizes rework by finding issues that require changes early on.
 * Add and test packages before writing the code that interfaces with each package.
-* &#x20;After writing a major section of code, scan it to find issues before continuing work.
+* After writing a major section of code, scan it to find issues before continuing work.
 
 ## Learn how to design secure code
 
@@ -33,7 +33,7 @@ See [Monitor your projects at regular intervals](../../snyk-cli/scan-and-maintai
 
 ## Manage and fix issues using Snyk
 
-If you see hundreds or thousands of issues when first scanning your application, prioritization of issues becomes important. For more details, see [Prioritize your issues](../../manage-risk/prioritize-your-issues/).
+If you see hundreds or thousands of issues when first scanning your application, prioritization of issues becomes important. For more details, see [Prioritize your issues](broken-reference).
 
 Snyk offers capabilities to address issues both reactively and proactively:
 
@@ -51,7 +51,7 @@ Snyk offers capabilities to address issues both reactively and proactively:
 
 #### Smaller businesses
 
-Startups, small teams, individuals, and open-source maintainers typically onboard their applications using Git, getting results in minutes and starting to address issues almost immediately. Small teams benefit from being agile and determining what works best for their workflow. &#x20;
+Startups, small teams, individuals, and open-source maintainers typically onboard their applications using Git, getting results in minutes and starting to address issues almost immediately. Small teams benefit from being agile and determining what works best for their workflow.
 
 For more details, see the [Team implementation guide](../../implement-snyk/team-implementation-guide/).
 

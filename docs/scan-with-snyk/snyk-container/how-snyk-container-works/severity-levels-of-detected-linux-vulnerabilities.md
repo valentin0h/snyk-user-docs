@@ -1,6 +1,6 @@
 # Severity levels of detected Linux vulnerabilities
 
-When determining the [severity level](../../../manage-risk/prioritize-your-issues/severity-levels.md) of a Linux vulnerability (Low, Medium, High, Critical), Snyk Container considers multiple factors:
+When determining the [severity level](broken-reference) of a Linux vulnerability (Low, Medium, High, Critical), Snyk Container considers multiple factors:
 
 * Snyk’s internal analysis
 * An assessment of the severity provided by the Linux distribution maintainer’s security team
@@ -10,7 +10,7 @@ In certain cases, NVD assigns a different CVSS vector and severity score from th
 
 ## Relative importance feature
 
-Relative importance asserts a common severity for a vulnerability and shows the underlying detailed information for that severity based on multiple sources. This helps developers and analysts view a common level of importance and exposes the underlying information that helped form the given severity.&#x20;
+Relative importance asserts a common severity for a vulnerability and shows the underlying detailed information for that severity based on multiple sources. This helps developers and analysts view a common level of importance and exposes the underlying information that helped form the given severity.
 
 ## View relative importance
 

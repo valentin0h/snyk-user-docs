@@ -64,7 +64,7 @@ If you encounter any errors during import, see the [Importing Projects](https://
 
 ## Issue card details for Snyk IaC
 
-&#x20;Each issue card shows information about the resource and the path by which it was introduced.&#x20;
+Each issue card shows information about the resource and the path by which it was introduced.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-05-23 at 14.24.14.png" alt="Issue card details"><figcaption><p>Issue card details</p></figcaption></figure>
 
@@ -84,7 +84,7 @@ Click **Full details** to see a preview of the full code:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-05-23 at 14.24.20.png" alt="Preview of the full code"><figcaption><p>Preview of the full code</p></figcaption></figure>
 
-Click **Ignore** to ignore this vulnerability. For details, see [Ignore Issues](../../manage-risk/prioritize-your-issues/ignore-issues/).
+Click **Ignore** to ignore this vulnerability. For details, see [Ignore Issues](broken-reference).
 
 ## Fix configuration files in IaC
 
@@ -92,7 +92,7 @@ The steps to act on recommendations produced by Snyk IaC follow.
 
 1. On a Project detail page, select an issue to see the details for that issue and specific recommendations from Snyk IaC.
 2. Based on the recommendations, edit the configuration file to fix the issue identified and then commit the change.\
-   Snyk automatically rescans the changed file.&#x20;
+   Snyk automatically rescans the changed file.
 3. View the change reflected in the issue display.
 
 <figure><img src="../../.gitbook/assets/snyk-iac-getting-started-issue-card.png" alt="Example of an IaC issues that has been fixed"><figcaption><p>Example of an IaC issues that has been fixed</p></figcaption></figure>

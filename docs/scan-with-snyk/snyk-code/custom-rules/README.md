@@ -1,7 +1,7 @@
 # Snyk Code custom rules
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
 Snyk Code custom rules are [Early Access](../../../getting-started/snyk-release-process.md#early-access) and available only for Enterprise plans.
 
@@ -32,17 +32,17 @@ You can create and test queries in a local environment, completely separate from
 
 ## Use custom rules in the Snyk CLI
 
-You can test your Code Projects using the Snyk CLI with regular commands and options as long as you have the [.snyk file](../../../manage-risk/prioritize-your-issues/the-.snyk-file.md) to hold any custom rules you created using Snyk Web UI. See [Snyk CLI for Snyk Code](../../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/).
+You can test your Code Projects using the Snyk CLI with regular commands and options as long as you have the [.snyk file](broken-reference) to hold any custom rules you created using Snyk Web UI. See [Snyk CLI for Snyk Code](../../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/).
 
 ## Use custom rules in the IDE
 
-IDE integrations with Snyk support custom rules as long as you have the [.snyk file](../../../manage-risk/prioritize-your-issues/the-.snyk-file.md) to hold any custom rules you created using Snyk Web UI.&#x20;
+IDE integrations with Snyk support custom rules as long as you have the [.snyk file](broken-reference) to hold any custom rules you created using Snyk Web UI.
 
 ## How Snyk Code custom rules work
 
 ### Query language
 
-Snyk Code custom rules use a proprietary declarative query language based on logic programming, specifically Datalog.&#x20;
+Snyk Code custom rules use a proprietary declarative query language based on logic programming, specifically Datalog.
 
 The goal is to create useful queries that will provide valuable and actionable results, helping security teams and developers focus on the most important vulnerabilities within their code.
 
@@ -56,43 +56,43 @@ The templates are abstract, pre-built constructs created to provide a quicker an
 
 #### Query predicates
 
-The predicate is a symbolic representation of a relationship between objects or properties that evaluates true or false. Snyk provides an exhaustive list of predefined predicates.&#x20;
+The predicate is a symbolic representation of a relationship between objects or properties that evaluates true or false. Snyk provides an exhaustive list of predefined predicates.
 
-For example, all cross-site scripting (XSS) sinks as `PRED:XssSink`. You can extend these or define your own.  See [Query language](./#the-query-language).
+For example, all cross-site scripting (XSS) sinks as `PRED:XssSink`. You can extend these or define your own. See [Query language](./#the-query-language).
 
 <figure><img src="../../../.gitbook/assets/query predicates.png" alt="Overview of Query Predicates."><figcaption><p>Query Predicates</p></figcaption></figure>
 
 #### Source
 
-Sources are entry points for data input and can potentially be controlled by a user or an environment. In many cases, the source should be assumed as tainted.&#x20;
+Sources are entry points for data input and can potentially be controlled by a user or an environment. In many cases, the source should be assumed as tainted.
 
 #### Sanitizer
 
-Sanitizers are used to sanitize data input from users or environments, ensuring the data is not tainted. By performing this sanitization, you remove the risk of tainted data being consumed by a sink.&#x20;
+Sanitizers are used to sanitize data input from users or environments, ensuring the data is not tainted. By performing this sanitization, you remove the risk of tainted data being consumed by a sink.
 
 #### Sink
 
-Sinks are points where data is consumed. If the consumed data is tainted, it could result in a vulnerability within your application.&#x20;
+Sinks are points where data is consumed. If the consumed data is tainted, it could result in a vulnerability within your application.
 
 #### Hosting rules
 
-Custom rules use the `.snyk` file, Whenever a repository is imported, this file will be picked up as part of the regular caching process.&#x20;
+Custom rules use the `.snyk` file, Whenever a repository is imported, this file will be picked up as part of the regular caching process.
 
 Given a `.snyk` file has custom rules within it; whenever a scan is run, these rules will run adjacent to the regular Snyk in-house rules and provide results as any other rules would.
 
-### Custom rules behavior&#x20;
+### Custom rules behavior
 
-Snyk Code custom rules work as any other rule. Snyk Code parses your code to create an Abstract Syntax Tree (AST), which is analyzed to create an Event Graph_._&#x20;
+Snyk Code custom rules work as any other rule. Snyk Code parses your code to create an Abstract Syntax Tree (AST), which is analyzed to create an Event Graph\_.\_
 
-_A_ll Snyk Code rules, including custom rules, run against the Event Graph, where any match is considered a vulnerability and identified for your developers or security teams.
+\_A\_ll Snyk Code rules, including custom rules, run against the Event Graph, where any match is considered a vulnerability and identified for your developers or security teams.
 
-A vulnerability is removed and added to the resolved issues section within the reporting tab when it has been addressed. See [The .snyk file](../../../manage-risk/prioritize-your-issues/the-.snyk-file.md).
+A vulnerability is removed and added to the resolved issues section within the reporting tab when it has been addressed. See [The .snyk file](broken-reference).
 
 ### Suggestive AI support
 
 Snyk Code offers a user-friendly development environment that uses AI technology to simplify defining and testing rules. The AI acts as an intuitive assistant, providing helpful suggestions for queries based on the code you are testing.
 
-For example, you can use the  `DataFlowsInto` [query template](./#query-templates) if you need to locate a method that data flows into. The AI will then suggest methods that data flows into within your code based on the Event Graph. This streamlines the process of creating rules and may also spark new query ideas.
+For example, you can use the `DataFlowsInto` [query template](./#query-templates) if you need to locate a method that data flows into. The AI will then suggest methods that data flows into within your code based on the Event Graph. This streamlines the process of creating rules and may also spark new query ideas.
 
 <figure><img src="../../../.gitbook/assets/suggestive_ai_support (1).gif" alt="Suggestive AI support"><figcaption><p>Suggestive AI support</p></figcaption></figure>
 
@@ -120,22 +120,22 @@ class Test {
 }
 ```
 
-You can match the method call for taking the current time by quoting its fully qualified name with the query `"java.time.LocalDate.now"`. &#x20;
+You can match the method call for taking the current time by quoting its fully qualified name with the query `"java.time.LocalDate.now"`.
 
-You can match both the function declaration _test_ and the string '`test`' by using the query `"test"`.&#x20;
+You can match both the function declaration _test_ and the string '`test`' by using the query `"test"`.
 
 The number value 123 can be matched by using the query `"123"`. Quotes are used to match elements regardless of their type, identifier, string, number, or other value. Elements can also be matched by using regular expressions. Regular expressions are identified by putting the symbol `~` in front of the quotes. For example, the program element `123` can be matched by the expression `~"12.*".` The print statements can be matched by queries such as: `"java.lang.System.out.println"` or `~".*\.println"`.
 
 To make sure that the correct, fully-qualified names of elements are used, the search interface provides autocompletion of the values for program elements that exist in the given code snippet or the provided repository.
 
-#### **Predicate (**_**PRED**_**)**&#x20;
+#### **Predicate (**_**PRED**_**)**
 
-A predicate matches program elements based on some predefined condition. The main advantage of predicates is that you can use them to leverage the existing Snyk Code knowledge base. For example, if you need to find all program locations where an HTTP server handles cookies, you can use the predefined predicate `PRED:SourceCookie`.&#x20;
+A predicate matches program elements based on some predefined condition. The main advantage of predicates is that you can use them to leverage the existing Snyk Code knowledge base. For example, if you need to find all program locations where an HTTP server handles cookies, you can use the predefined predicate `PRED:SourceCookie`.
 
 Similarly, there is a predicate `PRED:SqliSink` for matching all program locations where SQL queries are handled. To support discovering all available predicates, custom rules provide autocompletion capabilities. There are two special predicates `PRED:Any` and `PRED:None` that match all program elements or no program elements, respectively.
 
 {% hint style="info" %}
-When multiple matches are provided in a sequence, the result is a combination of all of them.&#x20;
+When multiple matches are provided in a sequence, the result is a combination of all of them.
 
 For example, using a query like: `PRED:SourceCookie ~"get.*"` will only match on methods that are both returning cookies and have a name that starts with `get` (logical AND of the two conditions that match elements).
 {% endhint %}
@@ -163,7 +163,7 @@ class Test {
 }
 ```
 
-Some templates encode logical relations, like the conjunction `And` and disjunctions `Or`. The following query finds all calls to `println` that receives the string literal test as the first argument:  `And<"java.lang.System.out.println", HasArg1<StringLiteral<"test">>>`
+Some templates encode logical relations, like the conjunction `And` and disjunctions `Or`. The following query finds all calls to `println` that receives the string literal test as the first argument: `And<"java.lang.System.out.println", HasArg1<StringLiteral<"test">>>`
 
 #### Formal syntax
 
@@ -195,4 +195,3 @@ As a result, the Snyk Code Query Language becomes a subset of Datalog, effective
 
 * Learn from an end-to-end example with the [Snyk Code Custom Rules course](https://learn.snyk.io/lesson/custom-rules-for-snyk-code/)
 * [Create custom rules](create-snyk-code-custom-rules.md)
-

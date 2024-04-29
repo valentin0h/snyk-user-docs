@@ -116,7 +116,7 @@ Can refer to a cloud environment, a [Project attribute](../snyk-admin/snyk-proje
 
 ### Exploit
 
-A demonstration of how a vulnerability can be taken advantage of. When an exploit is widely published, it is commonly referred to as an exploit "in the wild". See [View exploits](../manage-risk/prioritize-your-issues/view-exploits.md).
+A demonstration of how a vulnerability can be taken advantage of. When an exploit is widely published, it is commonly referred to as an exploit "in the wild". See [View exploits](broken-reference).
 
 ### Exploit Maturity
 
@@ -166,7 +166,7 @@ Third-party products, applications, and platforms that Snyk works with, for exam
 
 ### Issue
 
-A license problem, vulnerability, or misconfiguration identified and listed by Snyk. See [Find and manage priority issues](../manage-risk/prioritize-your-issues/).
+A license problem, vulnerability, or misconfiguration identified and listed by Snyk. See [Find and manage priority issues](broken-reference).
 
 ## L
 
@@ -176,7 +176,7 @@ A specific type of package.
 
 ### License policy
 
-A set of criteria for evaluating open-source license issues. License policies enable you to set the severity level and define legal instructions for each license. See [License policies](../manage-risk/policies/license-policies/).
+A set of criteria for evaluating open-source license issues. License policies enable you to set the severity level and define legal instructions for each license. See [License policies](broken-reference).
 
 ## M
 
@@ -238,7 +238,7 @@ Use Snyk PR Checks to prevent new security issues from entering your codebase by
 
 ### Priority Score
 
-Snyk scores issues, including vulnerabilities and licenses for Open Source, to help prioritize the treatment of each one. Scores are based on multiple factors including the CVSS score and range from 0 (low) to 1000 (high). See [Priority Score](../scan-with-snyk/find-and-manage-priority-issues/priority-score.md).
+Snyk scores issues, including vulnerabilities and licenses for Open Source, to help prioritize the treatment of each one. Scores are based on multiple factors including the CVSS score and range from 0 (low) to 1000 (high). See [Priority Score](broken-reference).
 
 ### Project
 
@@ -248,7 +248,7 @@ An external item scanned by Snyk with configuration to define how to run that sc
 
 ### Reachability
 
-Whether an application contains code that will hit a vulnerable code path during execution. See [Reachable vulnerabilities](../manage-risk/prioritize-your-issues/reachable-vulnerabilities.md).
+Whether an application contains code that will hit a vulnerable code path during execution. See [Reachable vulnerabilities](broken-reference).
 
 ### Registry
 
@@ -298,11 +298,11 @@ Software Development Lifecycle. A process followed by a development team, descri
 
 ### Security policy
 
-A set of criteria for evaluating open-source vulnerabilities. Security policies enable you to set custom rules to automatically prioritize or de-prioritize specific vulnerabilities. See [Security policies](../manage-risk/policies/security-policies/).
+A set of criteria for evaluating open-source vulnerabilities. Security policies enable you to set custom rules to automatically prioritize or de-prioritize specific vulnerabilities. See [Security policies](broken-reference).
 
 ### Severity
 
-A severity level is applied to a vulnerability or a license issue, to indicate the risk for that item in an application. See [Severity levels](../manage-risk/prioritize-your-issues/severity-levels.md).
+A severity level is applied to a vulnerability or a license issue, to indicate the risk for that item in an application. See [Severity levels](broken-reference).
 
 ### Snapshot
 
@@ -310,7 +310,7 @@ An individual report within the test history of a Project. Includes a tree of de
 
 ### `.snyk` policy
 
-A policy file that Snyk uses to define certain analysis behaviors and to specify patches for the CLI and CI/CD plugins. See [The .snyk file](../manage-risk/prioritize-your-issues/the-.snyk-file.md).
+A policy file that Snyk uses to define certain analysis behaviors and to specify patches for the CLI and CI/CD plugins. See [The .snyk file](broken-reference).
 
 ### Snyk
 
@@ -367,7 +367,7 @@ The browser-based environment that provides users access to Snyk functions. See 
 
 ### Social Trends
 
-Snyk shows a Trending banner on issues that are being actively discussed on Twitter. See [Vulnerabilities with Social Trends](../manage-risk/prioritize-your-issues/vulnerabilities-with-social-trends.md).
+Snyk shows a Trending banner on issues that are being actively discussed on Twitter. See [Vulnerabilities with Social Trends](broken-reference).
 
 ### Source
 

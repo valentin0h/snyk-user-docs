@@ -94,7 +94,7 @@ Click the **Details** link to display the status of the Snyk check. The status o
 
 An administrator can manage Snyk [PR Checks](../../../scan-with-snyk/run-pr-checks/) settings for each SCM integration at the Organization level and then apply these settings, either to all the Projects for that integration or to selected specific Projects. You can configure whether this feature is on (enabled by default) and set fail conditions to define when Snyk should fail your PR checks.
 
-See [Configure PR Checks at the Integration level](../../../scan-with-snyk/pull-requests/pull-request-checks/configure-pr-checks.md#configure-pr-checks-at-the-integration-level) and [Configure PR Checks at the Project level](../../../scan-with-snyk/pull-requests/pull-request-checks/configure-pr-checks.md#configure-pr-checks-at-the-project-level) for details of this process.&#x20;
+See [Configure PR Checks at the Integration level](../../../scan-with-snyk/pull-requests/pull-request-checks/configure-pr-checks.md#configure-pr-checks-at-the-integration-level) and [Configure PR Checks at the Project level](../../../scan-with-snyk/pull-requests/pull-request-checks/configure-pr-checks.md#configure-pr-checks-at-the-project-level) for details of this process.
 
 {% hint style="info" %}
 Use Snyk License policies to ensure that your Snyk PRs are free of licensing issues.\
@@ -119,7 +119,7 @@ After you have embedded Snyk into your software development life cycle (SDLC), a
 * **High priority Projects (PCI/GDPR compliance)**: fail the PR for any issue.
 
 {% hint style="info" %}
-To align vulnerability severity with your internal policy, use security policies to change the severity of issues and attach them to relevant Project attributes. See [Security policies](../../../manage-risk/policies/security-policies/) for more details.
+To align vulnerability severity with your internal policy, use security policies to change the severity of issues and attach them to relevant Project attributes. See [Security policies](broken-reference) for more details.
 {% endhint %}
 
 ## Stage 5: Automatic Fix PRs

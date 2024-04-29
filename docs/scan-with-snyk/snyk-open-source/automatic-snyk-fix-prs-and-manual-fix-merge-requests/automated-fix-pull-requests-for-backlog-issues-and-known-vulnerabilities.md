@@ -4,20 +4,20 @@
 * Snyk supports backlog issues for GitHub, GitHub Enterprise, and Bitbucket Cloud integrations.
 * The **Automatic fix PRs** feature is supported for the following integrations: BitBucket Server, BitBucket Cloud, BitBucket Connect, GitHub, GitHub Enterprise, GitLab, and Azure.
 * The **Automatic fix PR** settings may vary depending on the integration.
-* The fix strategy feature for getting dependency-oriented fixes is in [beta](../../../getting-started/snyk-release-process.md).&#x20;
+* The fix strategy feature for getting dependency-oriented fixes is in [beta](../../../getting-started/snyk-release-process.md).
 {% endhint %}
 
 When Snyk creates automatic PRs for vulnerabilities, the following rules are applied:
 
 * If you select **Retest now** for the Project, a scan is run manually, and the 24-hour window is marked as having had a scan run. No automatic PR is created until the next automated scan runs.
-* One pull request is created per Project with a [priority score](../../find-and-manage-priority-issues/priority-score.md) of **700 and above**.
+* One pull request is created per Project with a [priority score](broken-reference) of **700 and above**.
 * Pull requests are created based on the **Test & Automated Pull Request Frequency** settings.
   * To update the **Test & Automated Pull Request Frequency**, navigate to **Projects** and select your Open Source Project.
   * Navigate to **Settings** and select an option from the pulldown list.
 
 <figure><img src="../../../.gitbook/assets/Project testing and PR Checks frequency (1).png" alt="Project test and automated PR Checks frequency setting"><figcaption><p>Project test and automated PR Checks frequency setting</p></figcaption></figure>
 
-To determine when your last 24-hour window began, check the Project issue card for **Snapshot taken by recurring test**.&#x20;
+To determine when your last 24-hour window began, check the Project issue card for **Snapshot taken by recurring test**.
 
 <figure><img src="../../../.gitbook/assets/Test information with a focus on the latest snapshot taken.png" alt="Snapshot taken by recurrint test 13 hours ago"><figcaption><p>Snapshot taken by recurrint test 13 hours ago</p></figcaption></figure>
 
@@ -64,4 +64,3 @@ You can configure Automatic fix PRs to work only for specific Projects rather th
 5. Click **Save changes**.
 
 <figure><img src="../../../.gitbook/assets/Automatic fix PRs settings at the Project level.png" alt="Automatic fix PRs settings at the Project level."><figcaption><p>Automatic fix PRs settings at the Project level</p></figcaption></figure>
-

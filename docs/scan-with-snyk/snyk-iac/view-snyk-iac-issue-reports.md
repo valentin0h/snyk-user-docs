@@ -1,10 +1,10 @@
 # View Snyk IaC issue reports
 
-Use [Snyk reports](../../manage-issues/reporting/legacy-reports/) to view issues in your IaC configuration files.
+Use [Snyk reports](broken-reference) to view issues in your IaC configuration files.
 
 {% hint style="warning" %}
 **Release status**\
-IaC issue reports are available for all paid plans.&#x20;
+IaC issue reports are available for all paid plans.
 
 See [Pricing plans](https://snyk.io/plans).
 {% endhint %}
@@ -19,7 +19,7 @@ To view IaC issues only, select **Configuration** from the **Summary filters** d
 
 ![](../../.gitbook/assets/screenshot\_2021-02-17\_at\_14.22.50.png)
 
-For more details on the summary tab, see the [Reports Summary tab](../../manage-issues/reporting/legacy-reports/legacy-reports-summary-tab.md) documentation.
+For more details on the summary tab, see the [Reports Summary tab](broken-reference) documentation.
 
 ## Issues page
 
@@ -35,7 +35,7 @@ You can also view the issues ungrouped; this shows more information about the Pr
 
 ![](<../../.gitbook/assets/image2-3 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (5) (7).png>)
 
-For more details on the issues tab, see [Issues tab](../../manage-issues/reporting/legacy-reports/legacy-reports-issues-tab.md) documentation.
+For more details on the issues tab, see [Issues tab](broken-reference) documentation.
 
 ### Export data
 
