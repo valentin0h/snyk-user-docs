@@ -6,7 +6,7 @@ Snyk is a platform that allows you to scan, prioritize, and fix security vulnera
 
 ## The Snyk developer-first approach
 
-Snyk provides visibility in a developer’s workflow and actionable insights. The benefit is engaging developers in security practices as part of their development work. Thus, the focus is on building a secure application rather than overhead-intensive work, such as putting in hard QA gates.&#x20;
+Snyk provides visibility in a developer’s workflow and actionable insights. The benefit is engaging developers in security practices as part of their development work. Thus, the focus is on building a secure application rather than overhead-intensive work, such as putting in hard QA gates.
 
 Developers now assemble applications with a combination of proprietary and open-source code, run that code in containers, and then deploy with infrastructure as code configurations using technologies like Kubernetes and Terraform.
 
@@ -51,9 +51,8 @@ See [Integrate with Snyk](../integrate-with-snyk/) for details.
 
 ## **What does Snyk cost?**
 
-Snyk has several pricing plans available, from free to Enterprise. See [Snyk Pricing Plans](../implement-snyk/enterprise-implementation-guide/trial-limitations.md).
+Snyk has several pricing plans available, from free to Enterprise. See [Snyk Pricing Plans](broken-reference).
 
 ## What happens to my data?
 
-See [How Snyk handles your data](../working-with-snyk/how-snyk-handles-your-data.md) for details of Snyk data handling.&#x20;
-
+See [How Snyk handles your data](../working-with-snyk/how-snyk-handles-your-data.md) for details of Snyk data handling.

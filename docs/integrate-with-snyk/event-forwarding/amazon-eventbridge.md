@@ -3,9 +3,7 @@
 {% hint style="info" %}
 **Transition to Snyk Apps**
 
-Snyk is currently transitioning event forwarding integrations to use the Snyk Apps platform. This change will enable new features and enhanced security across current and future Cloud Events integrations.&#x20;
-
-
+Snyk is currently transitioning event forwarding integrations to use the Snyk Apps platform. This change will enable new features and enhanced security across current and future Cloud Events integrations.
 
 During the transition, existing integrations will continue to function normally and customers will have the opportunity to authorize the integrations to ensure they continue working once they become Snyk Apps. You can complete authorization for existing integrations by following these steps:
 
@@ -13,20 +11,18 @@ During the transition, existing integrations will continue to function normally 
 2. Go to the settings section for the integration you want to authorize (e.g. Amazon EventBridge, AWS CloudTrail Lake, AWS Security Hub)
 3. Click the **Authorize app** button and complete the App authorization flow
 
-
-
 At the end of the transition window, **integrations which have not been authorized will no longer be able to forward events and will cease functioning.**
 {% endhint %}
 
 The [Amazon EventBridge](https://aws.amazon.com/eventbridge/) integration sends Snyk platform events to EventBridge, allowing you to integrate Snyk events into your existing AWS environments. The integration can be configured to send two different types of events:
 
 * **Snyk issue events** - these events are sent when new issues are discovered in a Snyk Project, or when an issue is updated. Each event contains information about the vulnerability or other problem found, including whether a remediation is available.
-* **Snyk platform audit events** - these events are sent every time a Snyk user performs an action within the Snyk platform. For more information, see [Audit logs](https://docs.snyk.io/snyk-admin/manage-users-and-permissions/audit-logs). This event type is available with Snyk Enterprise plans. See [Pricing plans](../../implement-snyk/enterprise-implementation-guide/trial-limitations.md) for details
+* **Snyk platform audit events** - these events are sent every time a Snyk user performs an action within the Snyk platform. For more information, see [Audit logs](https://docs.snyk.io/snyk-admin/manage-users-and-permissions/audit-logs). This event type is available with Snyk Enterprise plans. See [Pricing plans](broken-reference) for details
 
 To set up the integration, there are two steps:
 
 1. Configure an EventBridge integration in the Snyk dashboard. This will create a Snyk **Partner Event Source** in your AWS account, which you can see in the EventBridge dashboard.
-2. Configure the Snyk integration in Amazon EventBridge. This step involves associating the Snyk event source created in step one with an EventBridge **Event Bus**.&#x20;
+2. Configure the Snyk integration in Amazon EventBridge. This step involves associating the Snyk event source created in step one with an EventBridge **Event Bus**.
 
 After you complete these steps, Snyk immediately starts sending events to the configured event bus.
 
@@ -44,11 +40,11 @@ When the form is completed, click **Add integration**. After this step is done, 
 
 ### Snyk App Authorization
 
-If this is the first time you have set up an Amazon EventBridge integration for your organization, you will be prompted to complete the Snyk App authorization flow.&#x20;
+If this is the first time you have set up an Amazon EventBridge integration for your organization, you will be prompted to complete the Snyk App authorization flow.
 
 <figure><img src="../../.gitbook/assets/integrations-eventforwarding-eventbridge-auth.png" alt="" width="375"><figcaption></figcaption></figure>
 
-After completing the authorization flow you will be redirected to the settings page for the integration.&#x20;
+After completing the authorization flow you will be redirected to the settings page for the integration.
 
 ## Configure the integration in Amazon EventBridge
 
@@ -90,7 +86,7 @@ This event type includes core data about Snyk issues, including:
 * Issue severity
 * Whether a remediation is available
 
-Events are JSON formatted using the [Open Cybersecurity Schema Framework _finding_](https://schema.ocsf.io/1.0.0-rc.2/classes/security\_finding?extensions=) schema.&#x20;
+Events are JSON formatted using the [Open Cybersecurity Schema Framework _finding_](https://schema.ocsf.io/1.0.0-rc.2/classes/security\_finding?extensions=) schema.
 
 {% hint style="info" %}
 Not all Snyk issue data is included in these events, though Snyk is continually working to provide more complete event data.
@@ -99,7 +95,7 @@ Not all Snyk issue data is included in these events, though Snyk is continually 
 ### Snyk audit events
 
 {% hint style="info" %}
-This event type is available with Snyk Enterprise plans. See [Pricing plans](../../implement-snyk/enterprise-implementation-guide/trial-limitations.md) for details.
+This event type is available with Snyk Enterprise plans. See [Pricing plans](broken-reference) for details.
 {% endhint %}
 
-This event type forwards Snyk platform audit logs with the same schema defined as part of the Snyk [v1 Audit Log API](https://snyk.docs.apiary.io/#reference/audit-logs). &#x20;
+This event type forwards Snyk platform audit logs with the same schema defined as part of the Snyk [v1 Audit Log API](https://snyk.docs.apiary.io/#reference/audit-logs).

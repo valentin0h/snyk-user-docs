@@ -1,7 +1,7 @@
 # Fix code vulnerabilities automatically
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
 DeepCode AI Fix is in [Early Access](../../../getting-started/snyk-release-process.md#early-access) and available only for Enterprise plans.
 
@@ -18,7 +18,7 @@ Key features set DeepCode AI Fix apart. It has a neural network trained on milli
 
 ## What issues can you fix automatically?
 
-You can address various issues detected by the Snyk Code engine in terms of quality, promoting best code practices, and security vulnerabilities. DeepCode AI Fix currently does not support inter-file fixes.&#x20;
+You can address various issues detected by the Snyk Code engine in terms of quality, promoting best code practices, and security vulnerabilities. DeepCode AI Fix currently does not support inter-file fixes.
 
 ## DeepCode AI Fix language support
 
@@ -32,9 +32,9 @@ DeepCode AI Fix supports the following languages:
 * C# (Limited support)
 * APEX (Limited support)
 
-What is the difference between supported and limited support?&#x20;
+What is the difference between supported and limited support?
 
-* Supported languages provide remediation for 10 or more rules covering the OWASP Top 10,&#x20;
+* Supported languages provide remediation for 10 or more rules covering the OWASP Top 10,
 * Limited support languages provide remediation for less than 10 rules.
 
 ## What data does DeepCode AI Fix collect?
@@ -61,16 +61,16 @@ For more information on how Snyk manages data, see [How Snyk handles your data](
 
 A representation of information flow involved in fixing one issue is presented in the following table.
 
-<table><thead><tr><th width="211">Stage</th><th>Subsystem<select><option value="144c7d0e56c649fdaffeeef234193541" label="Static Code Analysis Engine" color="blue"></option><option value="453931e7eaf94118b3ea6ec945dfce7f" label="Neural Network (Generative LLM)" color="blue"></option></select></th><th>Details</th></tr></thead><tbody><tr><td>Code scan and   discovery of issues</td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Corresponds to a normal flow of scanning the code from IDE.</td></tr><tr><td>Code preprocessing and minimization with respect to the data flow of the particular issue <span class="math">\mathcal{I}</span></td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Data flow of <span class="math">\mathcal{I}</span> is analyzed and code is minimized, keeping the relevant context only.</td></tr><tr><td>Generating <span class="math">k</span> candidate fixes for the given issue <span class="math">\mathcal{I}</span></td><td><span data-option="453931e7eaf94118b3ea6ec945dfce7f">Neural Network (Generative LLM)</span></td><td>Here, <span class="math">k</span> is an implementation parameter.</td></tr><tr><td>Candidate fixes ranking and self-assessment</td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Each of the <span class="math"> k</span> fixes is assessed by the Code Engine, filtering out those rendering invalid code or failing to fix the issue (the issue persists).</td></tr><tr><td>Returning the best candidate fix </td><td></td><td>The system has finished.</td></tr></tbody></table>
+<table><thead><tr><th width="211">Stage</th><th>Subsystem<select><option value="144c7d0e56c649fdaffeeef234193541" label="Static Code Analysis Engine" color="blue"></option><option value="453931e7eaf94118b3ea6ec945dfce7f" label="Neural Network (Generative LLM)" color="blue"></option></select></th><th>Details</th></tr></thead><tbody><tr><td>Code scan and discovery of issues</td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Corresponds to a normal flow of scanning the code from IDE.</td></tr><tr><td>Code preprocessing and minimization with respect to the data flow of the particular issue <span class="math">\mathcal{I}</span></td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Data flow of <span class="math">\mathcal{I}</span> is analyzed and code is minimized, keeping the relevant context only.</td></tr><tr><td>Generating <span class="math">k</span> candidate fixes for the given issue <span class="math">\mathcal{I}</span></td><td><span data-option="453931e7eaf94118b3ea6ec945dfce7f">Neural Network (Generative LLM)</span></td><td>Here, <span class="math">k</span> is an implementation parameter.</td></tr><tr><td>Candidate fixes ranking and self-assessment</td><td><span data-option="144c7d0e56c649fdaffeeef234193541">Static Code Analysis Engine</span></td><td>Each of the <span class="math">k</span> fixes is assessed by the Code Engine, filtering out those rendering invalid code or failing to fix the issue (the issue persists).</td></tr><tr><td>Returning the best candidate fix</td><td></td><td>The system has finished.</td></tr></tbody></table>
 
 ## Requirements for DeepCode AI Fix
 
-* [Snyk Code Enterprise plan](../../../implement-snyk/enterprise-implementation-guide/trial-limitations.md).
-* Snyk IDE Plugin for  [VS Code](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-preview) or [Eclipse](https://marketplace.eclipse.org/content/snyk-security-code%E2%80%8B-open-source%E2%80%8B-iac-configurations).
+* [Snyk Code Enterprise plan](broken-reference).
+* Snyk IDE Plugin for [VS Code](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-preview) or [Eclipse](https://marketplace.eclipse.org/content/snyk-security-code%E2%80%8B-open-source%E2%80%8B-iac-configurations).
 
 ## Enable DeepCode AI Fix
 
-Enable DeepCode AI Fix  for your Organization in Snyk Web UI by navigating to **Settings** > **Snyk Preview**.
+Enable DeepCode AI Fix for your Organization in Snyk Web UI by navigating to **Settings** > **Snyk Preview**.
 
 <figure><img src="../../../.gitbook/assets/enable_fix_suggestions_snyk_preview.png" alt="DeepCodeAI Fix Suggestions settings in Snyk Preview"><figcaption><p>DeepCodeAI Fix Suggestions settings in Snyk Preview</p></figcaption></figure>
 
@@ -92,9 +92,8 @@ Snyk highlights hardcoded credentials as a vulnerability by adding a **Fix this 
 
 The issue is fixed by replacing the credentials with environment variables.
 
-<figure><img src="../../../.gitbook/assets/fix_suggestions_fix_applied (1).png" alt="Fix applied with DeepCode AI Fix "><figcaption><p>Fix applied with DeepCode AI Fix </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fix_suggestions_fix_applied (1).png" alt="Fix applied with DeepCode AI Fix"><figcaption><p>Fix applied with DeepCode AI Fix</p></figcaption></figure>
 
 You can follow the entire sequence in this short (12-second) video.
 
 <figure><img src="../../../.gitbook/assets/fix_hardcoded_secret.gif" alt="Fix hardcoded credentials with DeepCode AI Fix"><figcaption><p>Fix hardcoded credentials with DeepCode AI Fix</p></figcaption></figure>
-
