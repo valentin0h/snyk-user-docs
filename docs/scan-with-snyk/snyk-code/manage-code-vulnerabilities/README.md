@@ -12,8 +12,6 @@ Before managing vulnerabilities with Snyk Code, ensure the following:
 
 Each time a Project is tested, Snyk Code takes a snapshot of the repository in its current state and analyzes it to find vulnerabilities. All the files that contain source code that Snyk Code can analyze are aggregated in the Code analysis.
 
-When you import a repository, Snyk creates a Target folder that contains different Snyk Projects based on the file types present in the repository. The name of the Target folder includes the repository name, the integrated Git repository account name and its icon, and the number of Snyk Projects created for the repository. See [View your first Snyk Projects](broken-reference).
-
 Snyk Code creates a single Project for all the imported files from a repository. This aggregates vulnerabilities detected in the repository code into one Project, presenting the data flow of a vulnerability issue across multiple files.
 
 Automate importing multiple repositories using [Snyk API v1 Import targets](https://snyk.docs.apiary.io/#reference/import-projects/import/import-targets).
