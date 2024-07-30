@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Snyk Documentation](README.md)
+* [My Documentation](README.md)
 * [Getting started](getting-started/README.md)
   * [Quickstart](getting-started/quickstart/README.md)
     * [Create or log in to a Snyk account](getting-started/quickstart/create-or-log-in-to-a-snyk-account.md)
