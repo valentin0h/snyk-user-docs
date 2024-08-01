@@ -1,6 +1,6 @@
-# Integrate with Snyk
+# 🧙 Integrate with Snyk
 
-This section of the Snyk user docs explains how to set up and use many types of integration with Snyk.  This includes plugins and extensions for using Snyk in your IDE, importing Git repositories, and methods for using Snyk in your CI/CD environment:
+This section of the Snyk user docs explains how to set up and use many types of integration with Snyk. This includes plugins and extensions for using Snyk in your IDE, importing Git repositories, and methods for using Snyk in your CI/CD environment:
 
 * [Use Snyk in your IDE](use-snyk-in-your-ide/)
 * [Git repositories and CI/CD comparisons](git-repository-and-ci-cd-integrations-comparisons.md)
@@ -22,4 +22,3 @@ Integrations for [event forwarding](event-forwarding/) allow you to push Snyk pl
 [Notification and ticketing systems integrations](notification-and-ticketing-systems-integraitons/) help you work with Snyk in Jira and Slack.
 
 Information is also provided on how Snyk can work with [vulnerability management tools](vulnerability-management-tools/).
-

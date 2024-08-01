@@ -41,7 +41,7 @@
     * [Product training on Snyk Learn](getting-started/snyk-learn/product-training-on-snyk-learn.md)
     * [Snyk Learn Reports](getting-started/snyk-learn/snyk-learn-reports.md)
   * [Glossary](getting-started/glossary.md)
-* [Integrate with Snyk](integrate-with-snyk/README.md)
+* [🧙 Integrate with Snyk](integrate-with-snyk/README.md)
   * [Use Snyk in your IDE](integrate-with-snyk/use-snyk-in-your-ide/README.md)
     * [Eclipse plugin](integrate-with-snyk/use-snyk-in-your-ide/eclipse-plugin/README.md)
       * [Download the CLI and language server with the Eclipse plugin](integrate-with-snyk/use-snyk-in-your-ide/eclipse-plugin/download-the-cli-and-language-server-with-the-eclipse-plugin.md)
