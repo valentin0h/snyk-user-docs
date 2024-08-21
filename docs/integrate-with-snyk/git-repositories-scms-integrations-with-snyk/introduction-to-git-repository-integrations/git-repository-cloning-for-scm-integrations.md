@@ -26,11 +26,11 @@ The accuracy of results is improved in a number of ways through cloning. Since S
 When Git repository cloning is enabled, Snyk will ingest, through configured SCM integrations, a temporary snapshot of repository contents at a given commit and all commit metadata (including the commit message, authors, and timestamp).
 
 {% hint style="info" %}
-For more information on Snyk data processing and safeguards concerning Git repo cloning, see [Cache retention period related to vulnerability source data](../../../working-with-snyk/how-snyk-handles-your-data.md#cache-retention-period-related-to-vulnerability-source-data) and [Safeguards Snyk puts in place to ensure data is secure](../../../working-with-snyk/how-snyk-handles-your-data.md#safeguards-snyk-puts-in-place-to-ensure-data-is-secure).
+For more information on Snyk data processing and safeguards concerning Git repo cloning, see [Cache retention period related to vulnerability source data](broken-reference) and [Safeguards Snyk puts in place to ensure data is secure](broken-reference).
 {% endhint %}
 
 {% hint style="warning" %}
-By enabling this feature, you agree that your Git repository is a [Protected Asset](../../../working-with-snyk/how-snyk-handles-your-data.md#git-cloning-applicable-contract-terms) as defined in the contract between your company and Snyk.
+By enabling this feature, you agree that your Git repository is a [Protected Asset](broken-reference) as defined in the contract between your company and Snyk.
 {% endhint %}
 
 ## Git repository cloning protocols
