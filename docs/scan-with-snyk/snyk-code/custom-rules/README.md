@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **Release status**
 
-Snyk Code custom rules are [Early Access](../../../getting-started/snyk-release-process.md#early-access) and available only for Enterprise plans.
+Snyk Code custom rules are [Early Access](broken-reference) and available only for Enterprise plans.
 
 To enable the feature, see [Snyk Preview](../../../snyk-admin/snyk-preview.md).
 {% endhint %}
@@ -17,7 +17,7 @@ Create custom rules to run queries against the code stack as part of your invest
 
 You can run custom rules as part of any scan run by Snyk Code, and the feature is available when you are using Snyk Code in any of the following:
 
-* [Snyk Web UI](../../../getting-started/snyk-web-ui.md)
+* [Snyk Web UI](broken-reference)
 * [Snyk CLI](../../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/)
 * [IDE](../../../integrate-with-snyk/use-snyk-in-your-ide/)
 
@@ -32,11 +32,11 @@ You can create and test queries in a local environment, completely separate from
 
 ## Use custom rules in the Snyk CLI
 
-You can test your Code Projects using the Snyk CLI with regular commands and options as long as you have the [.snyk file](broken-reference) to hold any custom rules you created using Snyk Web UI. See [Snyk CLI for Snyk Code](../../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/).
+You can test your Code Projects using the Snyk CLI with regular commands and options as long as you have the [.snyk file](broken-reference/) to hold any custom rules you created using Snyk Web UI. See [Snyk CLI for Snyk Code](../../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/).
 
 ## Use custom rules in the IDE
 
-IDE integrations with Snyk support custom rules as long as you have the [.snyk file](broken-reference) to hold any custom rules you created using Snyk Web UI.
+IDE integrations with Snyk support custom rules as long as you have the [.snyk file](broken-reference/) to hold any custom rules you created using Snyk Web UI.
 
 ## How Snyk Code custom rules work
 
@@ -86,7 +86,7 @@ Snyk Code custom rules work as any other rule. Snyk Code parses your code to cre
 
 \_A\_ll Snyk Code rules, including custom rules, run against the Event Graph, where any match is considered a vulnerability and identified for your developers or security teams.
 
-A vulnerability is removed and added to the resolved issues section within the reporting tab when it has been addressed. See [The .snyk file](broken-reference).
+A vulnerability is removed and added to the resolved issues section within the reporting tab when it has been addressed. See [The .snyk file](broken-reference/).
 
 ### Suggestive AI support
 

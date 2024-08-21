@@ -42,7 +42,7 @@ You will find [pre-defined roles](pre-defined-roles.md) such as **Organization A
 
 {% hint style="warning" %}
 **Release status**\
-Group custom roles are in [Closed Beta](../../getting-started/snyk-release-process.md#snyk-features-in-closed-beta). For more information, contact your Snyk team.
+Group custom roles are in [Closed Beta](broken-reference). For more information, contact your Snyk team.
 {% endhint %}
 
 Role management for Groups takes place in **Settings** > **Member roles**. This is accessible to **Group Admins** or custom roles with **Role management** permissions.
@@ -153,7 +153,7 @@ Service accounts are available only to Snyk Enterprise customers. Free and Team 
 For more information, see [Plans and pricing](https://snyk.io/plans).
 {% endhint %}
 
-Users with the Group-level View, Create, and Edit service account permissions can change the assigned role and related permissions of a service account. For detailed steps, see [Assign roles and permissions to a service account](broken-reference).
+Users with the Group-level View, Create, and Edit service account permissions can change the assigned role and related permissions of a service account. For detailed steps, see [Assign roles and permissions to a service account](broken-reference/).
 
 ## Change the role of a user
 

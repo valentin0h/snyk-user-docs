@@ -1,9 +1,9 @@
-# Scan infrastructure
+# Snyk IaC
 
 {% hint style="warning" %}
-**Release status**&#x20;
+**Release status**
 
-IaC+ is in [Early Access](../../getting-started/snyk-release-process.md#early-access) and available only for Enterprise plans.
+IaC+ is in [Early Access](broken-reference) and available only for Enterprise plans.
 
 To enable the feature, see [Snyk Preview](https://docs.snyk.io/snyk-admin/manage-settings/snyk-preview).
 {% endhint %}

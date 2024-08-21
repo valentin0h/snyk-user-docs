@@ -7,7 +7,7 @@ Free and Team users have access to personal tokens only. Personal tokens are rec
 
 Snyk recommends that Enterprise customers use a service token to authenticate with a CI/CD. Avoid using a service token with an IDE.
 
-For details, see [How to obtain and authenticate with your Snyk API token](../getting-started/how-to-obtain-and-authenticate-with-your-snyk-api-token.md).
+For details, see [How to obtain and authenticate with your Snyk API token](broken-reference).
 {% endhint %}
 
 ## Methods of authenticating with Snyk
@@ -32,7 +32,7 @@ You can authenticate Snyk CLI in your CI/CD programmatically as follows:
   `snyk test`
 {% endhint %}
 
-You can specify either your personal API token or a service token, available for Enterprise customers only. See [Service accounts](broken-reference) for information on using service tokens.
+You can specify either your personal API token or a service token, available for Enterprise customers only. See [Service accounts](broken-reference/) for information on using service tokens.
 
 ## Steps to authenticate using your API token
 
@@ -42,4 +42,4 @@ You can specify either your personal API token or a service token, available for
 
 ![Snyk Account Settings, API Token](../.gitbook/assets/API-token-CLI-auth-details-22-01.png)
 
-For more details, see [How to obtain and use your Snyk API token](../getting-started/how-to-obtain-and-authenticate-with-your-snyk-api-token.md) for instructions that apply to all applications and tools.
+For more details, see [How to obtain and use your Snyk API token](broken-reference) for instructions that apply to all applications and tools.

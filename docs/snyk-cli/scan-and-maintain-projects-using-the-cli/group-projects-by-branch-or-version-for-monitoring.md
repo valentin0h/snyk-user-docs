@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **Release status and feature availability**
 
-Grouping Projects by branch or version is in [Early Access](../../getting-started/snyk-release-process.md) and available only for Enterprise plans. The feature is supported for Open Source. In some areas, the feature is not fully supported.
+Grouping Projects by branch or version is in [Early Access](broken-reference) and available only for Enterprise plans. The feature is supported for Open Source. In some areas, the feature is not fully supported.
 
 For more information, see [Pricing plans](https://snyk.io/plans).
 {% endhint %}

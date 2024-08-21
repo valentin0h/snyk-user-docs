@@ -27,7 +27,7 @@ If you try to implement all the SCM integration features at the same time, you r
 
 Snyk has pre-built integrations for Git repositories, including GitHub, GitHub Enterprise, Bitbucket Cloud, and others.
 
-See [Set up an integration](../../../getting-started/quickstart/set-up-an-integration.md) for details.
+See [Set up an integration](broken-reference) for details.
 
 ### **SCM permissions on repositories**
 
@@ -66,7 +66,7 @@ Navigate to the **Projects** page in the Snyk UI, select **Add projects**, selec
 To confirm that a Project was imported, go to the **Add project** import page for the integration. Imported Projects are indicated by a ✔ next to the repository name: <img src="../../../.gitbook/assets/image (223) (2) (2).png" alt="Check next to name of repo" data-size="line">
 {% endhint %}
 
-See [Import a Project](../../../getting-started/quickstart/import-a-project.md) for more details.
+See [Import a Project](broken-reference) for more details.
 
 ## Stage 3: Enable Snyk test on PRs
 
@@ -119,7 +119,7 @@ After you have embedded Snyk into your software development life cycle (SDLC), a
 * **High priority Projects (PCI/GDPR compliance)**: fail the PR for any issue.
 
 {% hint style="info" %}
-To align vulnerability severity with your internal policy, use security policies to change the severity of issues and attach them to relevant Project attributes. See [Security policies](broken-reference) for more details.
+To align vulnerability severity with your internal policy, use security policies to change the severity of issues and attach them to relevant Project attributes. See [Security policies](broken-reference/) for more details.
 {% endhint %}
 
 ## Stage 5: Automatic Fix PRs

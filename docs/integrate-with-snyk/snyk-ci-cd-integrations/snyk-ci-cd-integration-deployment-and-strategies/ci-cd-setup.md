@@ -24,11 +24,11 @@ For more information, see [How to select the Organization to use in the CLI.](..
 
 ### Snyk authentication token
 
-To run `snyk test`, you must authenticate using a token with access to the target Organization. For more information, see [How to obtain and authenticate with your Snyk API token](../../../getting-started/how-to-obtain-and-authenticate-with-your-snyk-api-token.md).
+To run `snyk test`, you must authenticate using a token with access to the target Organization. For more information, see [How to obtain and authenticate with your Snyk API token](broken-reference).
 
 Snyk Free and Team plan users must use their **personal Snyk API token**. See [API token configuration](ci-cd-setup.md#api-token-configuration) on this page for information on how to do this.
 
-Enterprise users should use a **service account** for any type of automation, including CI/CD setup. For more information, see [Service accounts](broken-reference).
+Enterprise users should use a **service account** for any type of automation, including CI/CD setup. For more information, see [Service accounts](broken-reference/).
 
 ## Setting up Snyk to run in a pipeline
 

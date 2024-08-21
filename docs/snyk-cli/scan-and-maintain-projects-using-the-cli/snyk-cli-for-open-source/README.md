@@ -39,14 +39,14 @@ When `snyk test` runs, it tries to autodetect your Project type by looking for a
 * go.mod
 
 {% hint style="info" %}
-&#x20;To analyze multiple manifest files, see [Scan multiple manifest files](use-options-to-customize-the-snyk-test-command.md#scan-multiple-manifest-files).
+To analyze multiple manifest files, see [Scan multiple manifest files](use-options-to-customize-the-snyk-test-command.md#scan-multiple-manifest-files).
 {% endhint %}
 
 The way Snyk analyzes the file and builds the tree varies depending on the following:
 
-* The [language and package manager](../../../getting-started/supported-languages-and-frameworks/) you use, as determined by the manifest file type
+* The [language and package manager](broken-reference) you use, as determined by the manifest file type
 * The method of scanning, using the [Snyk CLI](../../), or importing a Project using a [Git repository integration](../../../integrate-with-snyk/git-repositories-scms-integrations-with-snyk/)
 
-For tips on running `snyk test` with commonly used options, see [Use options to customize the snyk test command](use-options-to-customize-the-snyk-test-command.md). For more information about supported languages, see [Open Source language and package manager support](../../../getting-started/supported-languages-and-frameworks/).
+For tips on running `snyk test` with commonly used options, see [Use options to customize the snyk test command](use-options-to-customize-the-snyk-test-command.md). For more information about supported languages, see [Open Source language and package manager support](broken-reference).
 
-See [Open Source language and package manager support](../../../getting-started/supported-languages-and-frameworks/) for more information concerning supported languages.
+See [Open Source language and package manager support](broken-reference) for more information concerning supported languages.

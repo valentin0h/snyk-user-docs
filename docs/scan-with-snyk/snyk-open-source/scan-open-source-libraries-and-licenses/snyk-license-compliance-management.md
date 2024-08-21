@@ -17,7 +17,7 @@ The Snyk Default License Policy defines how Snyk identifies potential license is
 Before checking license compliance with Snyk License Compliance Management, ensure you:
 
 * Are part of a Snyk [paid plan](https://snyk.io/plans/).
-* Have integrated and imported your Projects. See [Quickstart](../../../getting-started/quickstart/).
+* Have integrated and imported your Projects. See [Quickstart](broken-reference).
 
 ## **Define license policies**
 
@@ -35,7 +35,7 @@ To open your Snyk Group default license policy, select the **Policies** menu opt
 
 Each policy contains rules detailing which licenses are acceptable and which are forbidden for use, together with a severity level that indicates how severe the license violation is. For example, severity levels for internal-only license issues may be less severe than for those released externally.
 
-You can create and edit multiple license policies for Organizations. For details, see [Create a license policy and rules](broken-reference).
+You can create and edit multiple license policies for Organizations. For details, see [Create a license policy and rules](broken-reference/).
 
 ## View compliance issues
 
@@ -77,4 +77,4 @@ You can now take action to resolve the license issues identified during the scan
 
 The actions you take depend on the license conditions and on your policies. For example, if a license violation has surfaced, this issue can be mitigated by either approaching your legal team or by replacing the dependency that added the violation.
 
-Alternatively, you may want to ignore the issue. For details, see [ignore issues](broken-reference).
+Alternatively, you may want to ignore the issue. For details, see [ignore issues](broken-reference/).

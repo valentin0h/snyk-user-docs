@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **Release status**
 
-PR Checks for Snyk Code are in [Closed Beta](../../../getting-started/snyk-release-process.md) and available only for Enterprise plan users. If you want to set it up in your Organization, contact your Snyk account team. For more information, see [Plans and Pricing](https://snyk.io/plans/).
+PR Checks for Snyk Code are in [Closed Beta](broken-reference) and available only for Enterprise plan users. If you want to set it up in your Organization, contact your Snyk account team. For more information, see [Plans and Pricing](https://snyk.io/plans/).
 {% endhint %}
 
 ## Prerequisites for automated PR Checks
@@ -12,20 +12,20 @@ To check for open-source and licensing issues and code security, ensure that you
 
 * You have the Group Admin role so you have access to all integration settings. See [Member roles](../../../snyk-admin/user-roles/user-role-management.md).
 * You have [set up a Git repository integration](../../../integrate-with-snyk/git-repositories-scms-integrations-with-snyk/). For help, see the Snyk Learn course [Source code manager configuration](https://learn.snyk.io/lesson/configure-snyk-scm/).
-* [Import a Project](../../../getting-started/quickstart/import-a-project.md) to have a working Git repository.
+* [Import a Project](broken-reference) to have a working Git repository.
 * For code security (Snyk Code), meet all of the above conditions and then contact your Snyk representative to enable the feature for you.
 
 {% hint style="info" %}
 PR Checks rely on webhooks from the SCM. Integration scope must include the ability to create webhooks.
 
-A PR Check is counted as a test within your Organization's test count, including automatic checks of new commits in an open pull request. See[ What counts as a test](../../../working-with-snyk/what-counts-as-a-test.md). The number of tests allowed is determined by the [pricing plans](broken-reference).
+A PR Check is counted as a test within your Organization's test count, including automatic checks of new commits in an open pull request. See[ What counts as a test](../../../working-with-snyk/what-counts-as-a-test.md). The number of tests allowed is determined by the [pricing plans](broken-reference/).
 {% endhint %}
 
 ## Types of Snyk scans supported
 
 You can analyze the changed code with PR Checks as follows:
 
-* ([Closed Beta](../../../getting-started/snyk-release-process.md#closed-beta)) Snyk Code: Source code changes result in a vulnerability that exceeds a specified threshold. A full scan of the repository is done to determine if there are new vulnerabilities.
+* ([Closed Beta](broken-reference)) Snyk Code: Source code changes result in a vulnerability that exceeds a specified threshold. A full scan of the repository is done to determine if there are new vulnerabilities.
 * Snyk Open Source: Snyk analyzes dependency manifest or supported files for known security vulnerabilities that meet a threshold, such as exceeding severity, or checks to determine whether a fix is available.
 * Open Source license check: Snyk validates package licenses against the configured policy for license policy violations.
 

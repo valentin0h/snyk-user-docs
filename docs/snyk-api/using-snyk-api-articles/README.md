@@ -28,6 +28,6 @@ For more articles on using the Snyk API, see the following:
 
 * [API support articles](https://support.snyk.io/hc/en-us/sections/360001344097-API)
 * [Audit logs](../user-management-with-the-snyk-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md)
-* [Bazel](../../getting-started/supported-languages-and-frameworks/bazel.md)
+* [Bazel](broken-reference)
 * [User management with the Snyk API](../user-management-with-the-snyk-api/)
-* [Manage service accounts using the Snyk API](broken-reference)
+* [Manage service accounts using the Snyk API](broken-reference/)

@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **Release status**
 
-DeepCode AI Fix is in [Early Access](../../../getting-started/snyk-release-process.md#early-access) and available only for Enterprise plans.
+DeepCode AI Fix is in [Early Access](broken-reference) and available only for Enterprise plans.
 
 To enable the feature, see [Enable DeepCode AI Fix Suggestions](fix-code-vulnerabilities-automatically.md#enable-deepcode-ai-fix).
 {% endhint %}
@@ -65,7 +65,7 @@ A representation of information flow involved in fixing one issue is presented i
 
 ## Requirements for DeepCode AI Fix
 
-* [Snyk Code Enterprise plan](broken-reference).
+* [Snyk Code Enterprise plan](broken-reference/).
 * Snyk IDE Plugin for [VS Code](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-preview) or [Eclipse](https://marketplace.eclipse.org/content/snyk-security-code%E2%80%8B-open-source%E2%80%8B-iac-configurations).
 
 ## Enable DeepCode AI Fix

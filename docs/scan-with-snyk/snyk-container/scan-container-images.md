@@ -2,7 +2,7 @@
 
 Snyk Container helps you find and fix vulnerabilities in container images, based on container registry scans.
 
-You can scan your container images using Snyk Container:&#x20;
+You can scan your container images using Snyk Container:
 
 * In the [Snyk Web UI](use-snyk-container-from-the-web-ui/)
 * Through the [Snyk CLI](../../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-container/)
@@ -12,7 +12,7 @@ You can scan your container images using Snyk Container:&#x20;
 
 Before scanning your container images with Snyk Container, ensure you:
 
-* Have completed the [quickstart](../../getting-started/quickstart/) steps.
+* Have completed the [quickstart](broken-reference) steps.
 * Set up an integration with a supported container registry, like Docker Hub. See Snyk Container integrations.
 
 ## View vulnerabilities in your container images
@@ -34,6 +34,6 @@ To fix vulnerabilities in your container images:
 1. Open a PR based on Snyk recommendation by clicking **Open a fix PR**.
 2. Upgrade or rebuild your image.
 
-After it is pushed, Snyk automatically rescans your new image.&#x20;
+After it is pushed, Snyk automatically rescans your new image.
 
 For more details on how to fix vulnerabilities, see [Analysis and fixes for your images from the Snyk Web UI](use-snyk-container-from-the-web-ui/analyze-and-fix-container-images.md).

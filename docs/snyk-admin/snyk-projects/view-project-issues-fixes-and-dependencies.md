@@ -22,7 +22,7 @@ Snyk provides features to fix issues identified during scanning. See [Fix your v
 
 ## View issue details
 
-Click on an issue to view details, including its [priority score](broken-reference).
+Click on an issue to view details, including its [priority score](broken-reference/).
 
 <div align="left">
 
@@ -30,7 +30,7 @@ Click on an issue to view details, including its [priority score](broken-referen
 
 </div>
 
-* Click **Learn about this type of vulnerability** for [Snyk Learn](../../getting-started/snyk-learn/) training.
+* Click **Learn about this type of vulnerability** for [Snyk Learn](broken-reference) training.
 * Click **Show more detail** to view detailed information about the vulnerability from the [Snyk Vulnerability database](https://snyk.io/product/vulnerability-database/):
 
 <div align="left">

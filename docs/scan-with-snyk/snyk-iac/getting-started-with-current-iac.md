@@ -12,7 +12,7 @@ On this page, you will find steps to find, view, and fix issues in configuration
 
 Before using Snyk IaC, be sure you have the prerequisites as follows:
 
-* A Snyk account. For details, see [Create a Snyk account](../../getting-started/quickstart/create-or-log-in-to-a-snyk-account.md).
+* A Snyk account. For details, see [Create a Snyk account](broken-reference).
 * An existing Terraform, CloudFormation, Kubernetes, or ARM environment to work in.
 * A Git repository you have integrated with Snyk in the same way as for other Snyk products. For details, see [Git repository (SCM)](../../integrate-with-snyk/git-repositories-scms-integrations-with-snyk/).
 
@@ -84,7 +84,7 @@ Click **Full details** to see a preview of the full code:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-05-23 at 14.24.20.png" alt="Preview of the full code"><figcaption><p>Preview of the full code</p></figcaption></figure>
 
-Click **Ignore** to ignore this vulnerability. For details, see [Ignore Issues](broken-reference).
+Click **Ignore** to ignore this vulnerability. For details, see [Ignore Issues](broken-reference/).
 
 ## Fix configuration files in IaC
 

@@ -39,12 +39,12 @@ Repositories are cloned using HTTPS. SSH-based clones are currently unavailable.
 
 ## Flows used in Git repository cloning
 
-[PR checks](../../../scan-with-snyk/run-pr-checks/), [import](../../../getting-started/quickstart/import-a-project.md), and [recurring tests](https://docs.snyk.io/scan-with-snyk/working-with-snyk-in-your-environment/running-scans) will all make use of Git repository cloning for all Projects imported using an SCM integration.
+[PR checks](../../../scan-with-snyk/run-pr-checks/), [import](broken-reference), and [recurring tests](https://docs.snyk.io/scan-with-snyk/working-with-snyk-in-your-environment/running-scans) will all make use of Git repository cloning for all Projects imported using an SCM integration.
 
 ## Snyk Broker interactions
 
 Brokered connections are supported when Git operations are allowed through Broker.
 
 {% hint style="warning" %}
-This will override restrictions from `accept.json`. For more information, see [Clone capability with Broker for Docker](broken-reference).
+This will override restrictions from `accept.json`. For more information, see [Clone capability with Broker for Docker](broken-reference/).
 {% endhint %}
