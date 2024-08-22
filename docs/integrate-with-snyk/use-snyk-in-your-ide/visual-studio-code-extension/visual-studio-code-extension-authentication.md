@@ -1,6 +1,6 @@
 # Visual Studio Code extension authentication
 
-To scan your projects you must authenticate with Snyk. The extension uses your Snyk API [token](broken-reference) for authentication. To store the token securely, Snyk uses [Secret Storage API](https://code.visualstudio.com/api/references/vscode-api#SecretStorage), which uses the system's keychain to manage the token.
+To scan your projects you must authenticate with Snyk. The extension uses your Snyk API [token](../../../snyk-api-info/authentication-for-api.md) for authentication. To store the token securely, Snyk uses [Secret Storage API](https://code.visualstudio.com/api/references/vscode-api#SecretStorage), which uses the system's keychain to manage the token.
 
 ## Logging in
 
@@ -13,7 +13,7 @@ To authenticate follow these steps:
 
     <img src="../../../.gitbook/assets/image (147) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="" data-size="original">
 3. Click **Authenticate**.
-4.  After successful authentication, view the confirmation message. If you need to authenticate using your API token, [How to obtain and authenticate with your Snyk API token](broken-reference/). Be sure to use your personal token.
+4.  After successful authentication, view the confirmation message. If you need to authenticate using your API token, [How to obtain and authenticate with your Snyk API token](broken-reference). Be sure to use your personal token.
 
     <img src="../../../.gitbook/assets/image (154) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (2).png" alt="" data-size="original">
 5. Close the browser window and return to VS Code. VS Code is now reading and saving the authentication on your local machine.
@@ -27,7 +27,7 @@ To re-authenticate with a different account, follow these steps:
 
 ![Snyk: Log Out](<../../../.gitbook/assets/logging-out-command (1).png>)
 
-Or you run `Snyk: Set Token` command and set your [token](broken-reference) in the text field manually.
+Or you run `Snyk: Set Token` command and set your [token](../../../snyk-api-info/authentication-for-api.md) in the text field manually.
 
 ![Set token manually](<../../../.gitbook/assets/image (224) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 

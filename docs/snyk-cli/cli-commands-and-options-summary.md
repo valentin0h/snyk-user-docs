@@ -114,7 +114,7 @@ Apply the recommended updates for supported ecosystems automatically. For more i
 
 ### [`snyk apps`](https://docs.snyk.io/snyk-cli/create-a-snyk-app-using-the-snyk-cli)
 
-Create a Snyk App using the Snyk CLI. For more information, see [Snyk Apps](broken-reference).
+Create a Snyk App using the Snyk CLI. For more information, see [Snyk Apps](../snyk-api-info/snyk-apps/).
 
 ## Subcommands of CLI commands
 
@@ -219,7 +219,7 @@ Lists of the options for Snyk CLI commands follow. Each option is followed by th
 
 ## `snyk code test` and `snyk iac test` command option
 
-`--report`: [`code test`](https://docs.snyk.io/snyk-cli/commands/code-test), [`iac test`](https://docs.snyk.io/snyk-cli/commands/iac-test)
+`--report`: [`code test`](https://docs.snyk.io/snyk-cli/commands/code-test),  [`iac test`](https://docs.snyk.io/snyk-cli/commands/iac-test)
 
 ## `snyk container` command options
 

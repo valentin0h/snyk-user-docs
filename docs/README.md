@@ -2,7 +2,7 @@
 
 ## Start using Snyk
 
-<table data-header-hidden><thead><tr><th></th><th width="164.33333333333331"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>​<a href="broken-reference/">Getting started</a><br>Start running Snyk to secure your code</td><td><a href="broken-reference/">Enterprise configuration</a><br>Use Snyk in an enterprise system</td><td><a href="broken-reference/">Implement Snyk</a><br>Set up Snyk to run in your business</td><td><a href="broken-reference/">Supported languages</a><br>Match your language and framework to Snyk</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="164.33333333333331"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>​<a href="broken-reference">Getting started</a><br>Start running Snyk to secure your code</td><td><a href="broken-reference/">Enterprise configuration</a><br>Use Snyk in an enterprise system</td><td><a href="broken-reference/">Implement Snyk</a><br>Set up Snyk to run in your business</td><td><a href="broken-reference">Supported languages</a><br>Match your language and framework to Snyk</td></tr></tbody></table>
 
 ## Integrate with Snyk <a href="#explore-snyk-products" id="explore-snyk-products"></a>
 
@@ -19,7 +19,7 @@
 
 ## Configuration and administration <a href="#use-other-resources" id="use-other-resources"></a>
 
-<table data-header-hidden><thead><tr><th width="259"></th><th></th></tr></thead><tbody><tr><td><a href="broken-reference">Snyk API</a><br>Extend Snyk functions with the Snyk API</td><td><a href="snyk-admin/">Snyk Admin</a><br>Manage your Snyk system</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="259"></th><th></th></tr></thead><tbody><tr><td><a href="snyk-api/">Snyk API</a><br>Extend Snyk functions with the Snyk API</td><td><a href="snyk-admin/">Snyk Admin</a><br>Manage your Snyk system</td></tr></tbody></table>
 
 ## Learning and information
 

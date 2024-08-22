@@ -24,7 +24,7 @@ For more information, see [How to select the Organization to use in the CLI.](..
 
 ### Snyk authentication token
 
-To run `snyk test`, you must authenticate using a token with access to the target Organization. For more information, see [How to obtain and authenticate with your Snyk API token](broken-reference/).
+To run `snyk test`, you must authenticate using a token with access to the target Organization. For more information, see [How to obtain and authenticate with your Snyk API token](broken-reference).
 
 Snyk Free and Team plan users must use their **personal Snyk API token**. See [API token configuration](ci-cd-setup.md#api-token-configuration) on this page for information on how to do this.
 
@@ -36,7 +36,7 @@ Snyk supports the following approaches to add tests to a build pipeline:
 
 * **Snyk integration plugins**: Snyk provides pre-built plugins for several CI servers, including [Jenkins](https://docs.snyk.io/integrations/ci-cd-integrations/jenkins-integration-overview), [Team City](https://docs.snyk.io/integrations/ci-cd-integrations/teamcity-integration-overview)[, Bitbucket Pipelines](https://docs.snyk.io/integrations/ci-cd-integrations/bitbucket-pipelines-integration-overview), and [Azure Pipelines](https://docs.snyk.io/integrations/ci-cd-integrations/azure-pipelines-integration).
 * **Snyk CLI:** Teams with more complex workflows, or using a build system without a Snyk pre-built plugin, can use the Snyk CLI during CI/CD setups. See [Setting up using Snyk CLI](ci-cd-setup.md#setting-up-using-snyk-cli) for details.
-* **Snyk API**: For teams with complex requirements, Snyk provides a REST API, which you can use for functions including initiating scans, onboarding new Projects, and testing arbitrary libraries. See the [Snyk API documentation](broken-reference) for details.
+* **Snyk API**: For teams with complex requirements, Snyk provides a REST API, which you can use for functions including initiating scans, onboarding new Projects, and testing arbitrary libraries. See the [Snyk API documentation](../../../snyk-api/) for details.
 
 ## Setting up CI/CD using Snyk CLI
 
@@ -53,7 +53,7 @@ To continuously avoid known vulnerabilities in your dependencies, integrate Snyk
 
 ### Set up automatic monitoring
 
-If you monitor a Project with Snyk, you will be notified if the dependencies in your Project are affected by newly disclosed vulnerabilities. To ensure the list of dependencies Snyk has for your Open Source Project is up to date, refresh it continuously by running s`nyk monitor` in your deployment process. Configure your environment to include the `SNYK_TOKEN` environment variable. You can [find your API token ](broken-reference)in your Snyk account settings.
+If you monitor a Project with Snyk, you will be notified if the dependencies in your Project are affected by newly disclosed vulnerabilities. To ensure the list of dependencies Snyk has for your Open Source Project is up to date, refresh it continuously by running s`nyk monitor` in your deployment process. Configure your environment to include the `SNYK_TOKEN` environment variable. You can [find your API token ](../../../snyk-api-info/authentication-for-api.md)in your Snyk account settings.
 
 ### API token configuration
 
