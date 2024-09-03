@@ -21,7 +21,7 @@ Under **Manage roles**, you can:
 7. [Change the role of a user](user-role-management.md#change-the-role-of-a-user)
 8. [Use roles in custom SSO](user-role-management.md#use-roles-in-custom-sso)
 
-If you use the Snyk API, see [User management with the Snyk API](../../snyk-api/user-management-with-the-snyk-api/) for more information.
+If you use the Snyk API, see [User management with the Snyk API](broken-reference) for more information.
 
 ## Essential information for working with Member roles
 
@@ -42,7 +42,7 @@ You will find [pre-defined roles](pre-defined-roles.md) such as **Organization A
 
 {% hint style="warning" %}
 **Release status**\
-Group custom roles are in [Closed Beta](broken-reference). For more information, contact your Snyk team.
+Group custom roles are in [Closed Beta](broken-reference/). For more information, contact your Snyk team.
 {% endhint %}
 
 Role management for Groups takes place in **Settings** > **Member roles**. This is accessible to **Group Admins** or custom roles with **Role management** permissions.

@@ -26,12 +26,12 @@ Developers can test, fix, and monitor using:
 When developers merge their code changes into their Git repository, Snyk can:
 
 * **Run PR Checks**: scan for issues when a pull request (PR) is merged. By default, PR Checks act to ensure that the attack surface of the application never increases, only failing when a PR adds a dependency with issues.
-* **Run daily scans**: have Snyk, by default, run daily scans if you imported Snyk Projects from your repo, to find any new problems in your current libraries quickly, such as critical zero-day vulnerabilities. This scanning occurs for all imported Projects, whether or not your teams are currently working on them. See [Walkthrough: code repository Projects](broken-reference).
+* **Run daily scans**: have Snyk, by default, run daily scans if you imported Snyk Projects from your repo, to find any new problems in your current libraries quickly, such as critical zero-day vulnerabilities. This scanning occurs for all imported Projects, whether or not your teams are currently working on them. See [Walkthrough: code repository Projects](broken-reference/).
 * **Create Jira tickets**: manage work on new issues discovered, to assign this work to developers in your team, and track progress on these issues. See the [Jira integration](../../notification-and-ticketing-systems-integrations/jira-integration.md) documentation.
 
 ## Automatically fix
 
-Snyk can also suggest fixes by creating a PR to address a vulnerability, address older dependencies, and help address backlogged vulnerabilities over time. See [Fix your first vulnerability](broken-reference).
+Snyk can also suggest fixes by creating a PR to address a vulnerability, address older dependencies, and help address backlogged vulnerabilities over time. See [Fix your first vulnerability](broken-reference/).
 
 ## During build
 
@@ -39,7 +39,7 @@ Snyk can again act as a “gate” when you are building the application, checki
 
 You can choose to report on issues, allowing the build to happen, or to stop the build if issues are encountered. You can also easily add criteria to this process, including exploitability, CVSS score, and whether a fix exists, thus focusing on fixing the issues that matter to you.
 
-Snyk provides a number of [Snyk tools](../../../snyk-api/snyk-tools/) to help with this process.
+Snyk provides a number of [Snyk tools](broken-reference) to help with this process.
 
 ## Security gate and Deploy
 
