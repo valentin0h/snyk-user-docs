@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # My Documentation
 
 ## Start using Snyk
